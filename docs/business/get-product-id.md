@@ -7,7 +7,7 @@ title: Pegar Produto (Id)
 
 #### /products/id-do-produto
 
-`GET` https://api.z-api.io/instances/{{instanceId}}/token/{{instanceToken}}/products/{{Id-do-produto}}
+`GET` https://www.plugchat.com.br/api/whatsapp/products/{{Id-do-produto}}
 
 ---
 

@@ -7,7 +7,7 @@ title: Enviando texto status
 
 #### /send-text-status
 
-`POST` https://api.z-api.io/instances/SUA_INSTANCIA/token/SEU_TOKEN/send-text-status
+`POST` https://www.plugchat.com.br/api/whatsapp/send-text-status
 
 ---
 
@@ -41,7 +41,7 @@ Você pode postar textos no seu status e este método é responsavel por isso, l
 
 Método
 
-`POST` https://api.z-api.io/instances/SUA_INSTANCIA/token/SEU_TOKEN/send-text-status
+`POST` https://www.plugchat.com.br/api/whatsapp/send-text-status
 
 #### Body
 
@@ -59,7 +59,7 @@ Método
 
 | Atributos | Tipo   | Descrição      |
 | :-------- | :----- | :------------- |
-| zaapId    | string | id no z-api    |
+| zaapId    | string | id no Plug    |
 | messageId | string | id no whatsapp |
 
 Exemplo

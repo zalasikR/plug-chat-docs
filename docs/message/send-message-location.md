@@ -7,7 +7,7 @@ title: Enviar localização
 
 #### /send-location
 
-`POST` https://api.z-api.io/instances/SUA_INSTANCIA/token/SEU_TOKEN/send-location
+`POST` https://www.plugchat.com.br/api/whatsapp/send-location
 
 ---
 
@@ -58,7 +58,7 @@ Método responsavel por enviar uma localização fixa aos seus contatos, muito u
 
 | Atributos | Tipo   | Descrição      |
 | :-------- | :----- | :------------- |
-| zaapId    | string | id no z-api    |
+| zaapId    | string | id no plug    |
 | messageId | string | id no whatsapp |
 
 Exemplo

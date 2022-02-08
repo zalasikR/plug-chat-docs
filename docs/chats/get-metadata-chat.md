@@ -7,7 +7,7 @@ title: Pegar metadata do Chat
 
 #### /chat/{phone}
 
-`GET` https://api.z-api.io/instances/SUA_INSTANCIA/token/SEU_TOKEN/chats/{phone}
+`GET` https://www.plugchat.com.br/api/whatsapp/chats/{phone}
 
 ---
 
@@ -39,7 +39,7 @@ Este método é reponsavel por retornar as informações do metadata de um chat.
 
 Método
 
-`GET` https://api.z-api.io/instances/SUA_INSTANCIA/token/SEU_TOKEN/chat/5511999999999
+`GET` https://www.plugchat.com.br/api/whatsapp/chat/5511999999999
 
 ---
 

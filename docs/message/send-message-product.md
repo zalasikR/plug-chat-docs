@@ -7,7 +7,7 @@ title: Enviar produto
 
 #### /
 
-`GET` https://api.z-api.io/instances/SUA_INSTANCIA/token/SEU_TOKEN/
+`GET` https://www.plugchat.com.br/api/whatsapp/send-text
 
 ---
 

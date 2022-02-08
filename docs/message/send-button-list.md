@@ -7,7 +7,7 @@ title: Enviar texto com botões
 
 #### /send-button-list
 
-`POST` https://api.z-api.io/instances/SUA_INSTANCIA/token/SEU_TOKEN/send-button-list
+`POST` https://www.plugchat.com.br/api/whatsapp/send-button-list
 
 ---
 
@@ -58,7 +58,7 @@ Neste método você poderá enviar mensagens de texto com botões de ação, o c
 ```json
 {
   "phone": "5511999999999",
-  "message": "Z-API é Bom ?",
+  "message": "Plug-chat é Bom ?",
   "buttonList": {
     "buttons": [
       {
@@ -82,7 +82,7 @@ Neste método você poderá enviar mensagens de texto com botões de ação, o c
 
 | Atributos | Tipo   | Descrição      |
 | :-------- | :----- | :------------- |
-| zaapId    | string | id no z-api    |
+| zaapId    | string | id no plug    |
 | messageId | string | id no whatsapp |
 
 Exemplo

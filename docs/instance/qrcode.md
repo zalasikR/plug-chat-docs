@@ -7,7 +7,7 @@ title: Pegar QRCode
 
 #### /qr-code
 
-`GET` https://api.z-api.io/instances/SUA_INSTANCIA/token/SEU_TOKEN/qr-code
+`GET` https://www.plugchat.com.br/api/whatsapp/qr-code
 
 Pegando QRCode - bytes
 
@@ -15,7 +15,7 @@ Este método retorna os bytes do QRCode. Você poderá renderizar em um componen
 
 #### /qr-code/image
 
-`GET` https://api.z-api.io/instances/SUA_INSTANCIA/token/SEU_TOKEN/qr-code/image
+`GET` https://www.plugchat.com.br/api/whatsapp/qr-code/image
 
 Pegando QRCode - Imagem
 
@@ -25,7 +25,7 @@ Este método retorna uma imagem do tipo base64. Você poderá renderizar em um c
 
 ## Conceituação
 
-Sim! Como no Whatsapp Web você vai precisar ler um QRCode para conectar-se ao Z-API.
+Sim! Como no Whatsapp Web você vai precisar ler um QRCode para conectar-se ao Plug.
 
 Existem 2 formas que você pode utilizar para realizar esta leitura. São elas:
 
@@ -54,7 +54,7 @@ Se você optou por implementar a leitura do QRCode em sua aplicação, você pre
 
 Caso você chame o método e já esteja conectado ele não permitirá que você conecte novamente.
 
-Uma vez conectado você já pode começar a utilizar os métodos Z-API para manipular seu WhatsApp.
+Uma vez conectado você já pode começar a utilizar os métodos Plug para manipular seu WhatsApp.
 
 :::
 

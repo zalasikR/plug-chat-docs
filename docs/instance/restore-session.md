@@ -7,7 +7,7 @@ title: Restaurar sessão
 
 #### /restore-session
 
-`GET` https://api.z-api.io/instances/SUA_INSTANCIA/token/SEU_TOKEN/restore-session
+`GET` https://www.plugchat.com.br/api/whatsapp/restore-session
 
 ---
 

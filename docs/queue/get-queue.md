@@ -7,7 +7,7 @@ title: Fila
 
 #### /queue
 
-`GET` https://api.z-api.io/instances/SUA_INSTANCIA/token/SEU_TOKEN/queue
+`GET` https://www.plugchat.com.br/api/whatsapp/queue
 
 ## Conceituação
 
@@ -37,7 +37,7 @@ Este método é reponsavel por retornar todas mensagens que estão em sua fila a
 
 Método
 
-`GET` https://api.z-api.io/instances/SUA_INSTANCIA/token/SEU_TOKEN/queue
+`GET` https://www.plugchat.com.br/api/whatsapp/queue
 
 ---
 
@@ -57,7 +57,7 @@ Array Messages
 | size      | string   | Numero de mensagens na fila |
 | Message   | string   | Texto da Mensagem           |
 | Phone     | string   | Fone do destinatário        |
-| ZaapId    | string   | ID da mensagem no Z-API     |
+| ZaapId    | string   | ID da mensagem no Plug     |
 | Created   | timetamp | Data da mensagem            |
 | MessageId | string   | ID da mensagem              |
 

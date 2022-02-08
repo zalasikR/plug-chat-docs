@@ -7,7 +7,7 @@ title: Apagando uma Fila
 
 #### /queue
 
-`DELETE` https://api.z-api.io/instances/SUA_INSTANCIA/token/SEU_TOKEN/queue
+`DELETE` https://www.plugchat.com.br/api/whatsapp/queue
 
 ## Conceituação
 
@@ -37,7 +37,7 @@ Este método é reponsavel por DELETAR todas mensagens que estão em sua fila ag
 
 Método
 
-`DELETE` https://api.z-api.io/instances/SUA_INSTANCIA/token/SEU_TOKEN/queue
+`DELETE` https://www.plugchat.com.br/api/whatsapp/queue
 
 ---
 

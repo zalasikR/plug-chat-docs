@@ -7,7 +7,7 @@ title: Dados do celular
 
 #### /Status
 
-`GET` https://api.z-api.io/instances/SUA_INSTANCIA/token/SEU_TOKEN/device
+`GET` https://www.plugchat.com.br/api/whatsapp/device
 
 ---
 

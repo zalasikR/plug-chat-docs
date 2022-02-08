@@ -7,7 +7,7 @@ title: Enviar lista de opções
 
 #### /send-option-list
 
-`POST` https://api.z-api.io/instances/SUA_INSTANCIA/token/SEU_TOKEN/send-option-list
+`POST` https://www.plugchat.com.br/api/whatsapp/send-text/send-option-list
 
 ---
 
@@ -74,8 +74,8 @@ Esta funcionalidade está disponivel apenas para envios com contas Whatsapp NÃO
     "options": [
       {
         "id": "1",
-        "description": "Z-API Asas para sua imaginação",
-        "title": "Z-API"
+        "description": "Seu Whatsapp em vários computadores",
+        "title": "Plug chat"
       },
       {
         "id": "2",

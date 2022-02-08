@@ -7,7 +7,7 @@ title: Enviar sticker
 
 #### /send-sticker
 
-`POST` https://api.z-api.io/instances/SUA_INSTANCIA/token/SEU_TOKEN/send-sticker
+`POST` https://www.plugchat.com.br/api/whatsapp/send-text/send-sticker
 
 ---
 
@@ -88,7 +88,7 @@ BASE64
 
 | Atributos | Tipo   | Descrição      |
 | :-------- | :----- | :------------- |
-| zaapId    | string | id no z-api    |
+| zaapId    | string | id no plug    |
 | messageId | string | id no whatsapp |
 
 Exemplo

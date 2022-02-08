@@ -7,7 +7,7 @@ title: Criando grupos
 
 #### /create-group
 
-`POST` https://api.z-api.io/instances/SUA_INSTANCIA/token/SEU_TOKEN/create-group
+`POST` https://www.plugchat.com.br/api/whatsapp/create-group
 
 ---
 
@@ -50,13 +50,13 @@ No dia 4 de novembro de 2021 o whatsapp alterou a formato da criação de novos 
 
 **Método**
 
-`POST` https://api.z-api.io/instances/SUA_INSTANCIA/token/SEU_TOKEN/create-group
+`POST` https://www.plugchat.com.br/api/whatsapp/create-group
 
 **Exemplo**
 
 ```json
 {
-  "groupName": "Meu grupo no Z-API",
+  "groupName": "Meu grupo no Plug",
   "phones": ["5511999999999", "5511888888888"]
 }
 ```

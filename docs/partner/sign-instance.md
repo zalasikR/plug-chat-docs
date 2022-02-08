@@ -7,7 +7,7 @@ title: Assinando uma instância
 
 #### /subscription
 
-`POST` https://api.z-api.io/instances/{id}/token/{token}/integrator/on-demand/subscription
+`POST` https://www.plugchat.com.br/api/whatsapp/integrator/on-demand/subscription
 
 ---
 

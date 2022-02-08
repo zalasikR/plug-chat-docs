@@ -13,7 +13,7 @@ Esse é o webhook de retorno de mensagens recebidas
 
 :::caution Atenção
 
-O Z-API não aceita webhooks que não sejam HTTPS
+O Plug não aceita webhooks que não sejam HTTPS
 
 :::
 
@@ -21,13 +21,13 @@ O Z-API não aceita webhooks que não sejam HTTPS
 
 ## Atualizando Webhook
 
-Para atualizar a rota do webhook é possível fazer isso pela API ou pelo painel administrativo.
+Para atualizar a rota do webhook é possível fazer isso pela API.
 
 ### API
 
 #### /update-webhook-received
 
-`PUT` https://api.z-api.io/instances/SUA_INSTANCIA/token/SEU_TOKEN/update-webhook-received
+`PUT` https://www.plugchat.com.br/api/whatsapp/update-webhook-received
 
 #### Request Body
 
@@ -38,12 +38,6 @@ Para atualizar a rota do webhook é possível fazer isso pela API ou pelo painel
   "value": "https://endereco-do-seu-sistema.com.br/instancia/SUA_INSTANCIA/receive"
 }
 ```
-
----
-
-### Painel Administrativo
-
-![img](../../img/received.png)
 
 ---
 
@@ -161,8 +155,8 @@ Para atualizar a rota do webhook é possível fazer isso pela API ou pelo painel
   "forwarded": false,
   "type": "ReceivedCallback",
   "listResponseMessage": {
-    "message": "Z-API Asas para sua imaginação",
-    "title": "Z-API",
+    "message": "Plug Asas para sua imaginação",
+    "title": "Plug",
     "selectedRowId": "1"
   }
 }

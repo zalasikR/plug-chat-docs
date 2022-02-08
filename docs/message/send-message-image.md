@@ -7,7 +7,7 @@ title: Enviar imagem
 
 #### /send-image
 
-`POST` https://api.z-api.io/instances/SUA_INSTANCIA/token/SEU_TOKEN/send-image
+`POST` https://www.plugchat.com.br/api/whatsapp/send-image
 
 ---
 
@@ -68,8 +68,7 @@ URL
 ```json
 {
   "phone": "5511999999999",
-  "image": "https://www.z-api.io/wp-content/themes/z-api/dist/images/logo.svg",
-  "caption": "Logo"
+  "image": "https://www.plugchat.com.br/imgs/blue.png"
 }
 ```
 
@@ -91,7 +90,7 @@ BASE64
 
 | Atributos | Tipo   | Descrição      |
 | :-------- | :----- | :------------- |
-| zaapId    | string | id no z-api    |
+| zaapId    | string | id no plug    |
 | messageId | string | id no whatsapp |
 
 Exemplo

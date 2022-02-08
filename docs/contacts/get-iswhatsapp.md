@@ -7,7 +7,7 @@ title: Número com Whatsapp ?
 
 #### /phone-exists
 
-`GET` https://api.z-api.io/instances/SUA_INSTANCIA/token/SEU_TOKEN/phone-exists
+`GET` https://www.plugchat.com.br/api/whatsapp/phone-exists
 
 ## Conceituação
 
@@ -15,7 +15,7 @@ Este método retorna se o número tem ou não Whatsapp.
 
 :::important Importante
 
-Z-API não foi desenvolvido para dissiminação de spam para contatos que você não conhece, mesmo assim recomendamos que caso não tenha certeza que o número que vai enviar mensagens tenha Watsapp você pode e deve utilizar este método para certificar-se.
+Plug não foi desenvolvido para dissiminação de spam para contatos que você não conhece, mesmo assim recomendamos que caso não tenha certeza que o número que vai enviar mensagens tenha Watsapp você pode e deve utilizar este método para certificar-se.
 
 :::
 
@@ -43,7 +43,7 @@ Z-API não foi desenvolvido para dissiminação de spam para contatos que você 
 
 Método
 
-`GET` https://api.z-api.io/instances/SUA_INSTANCIA/token/SEU_TOKEN/phone-exists/5511999999999
+`GET` https://www.plugchat.com.br/api/whatsapp/phone-exists/5511999999999
 
 ---
 

@@ -8,15 +8,15 @@ title: Disconnected
 
 #### /update-webhook-disconnected
 
-`PUT` https://api.z-api.io/instances/SUA_INSTANCIA/token/SEU_TOKEN/update-webhook-disconnected
+`PUT` https://www.plugchat.com.br/api/whatsapp/update-webhook-disconnected
 
 ## Conceituação
 
-O Z-API oferece dentro das configurações da instância no painel admin o apontamento de webhooks para que ele possa notificar você sobre interações com seus chats/contatos. Este método é reponsavel por atualizar/adicionar esta informação via API, com ele você pode configurar os webhooks sem a necessidade de acessar o admin Z-API.
+O Plug oferece dentro das configurações da instância no painel admin o apontamento de webhooks para que ele possa notificar você sobre interações com seus chats/contatos. Este método é reponsavel por atualizar/adicionar esta informação via API, com ele você pode configurar os webhooks sem a necessidade de acessar o admin Plug.
 
 :::caution Atenção
 
-O Z-API não aceita webhooks que não sejam HTTPS
+O Plug não aceita webhooks que não sejam HTTPS
 
 :::
 
@@ -41,7 +41,7 @@ O Z-API não aceita webhooks que não sejam HTTPS
 
 #### URL
 
-`PUT` https://api.z-api.io/instances/SUA_INSTANCIA/token/SEU_TOKEN/update-webhook-disconnected
+`PUT` https://www.plugchat.com.br/api/whatsapp/update-webhook-disconnected
 
 #### Body
 

@@ -7,7 +7,7 @@ title: Criar/editar Produto
 
 #### /products
 
-`POST` https://api.z-api.io/instances/{{instanceId}}/token/{{instanceToken}}/products
+`POST` https://www.plugchat.com.br/api/whatsapp/products
 
 ---
 
@@ -30,7 +30,7 @@ Nesse método você será capaz de cadastrar e atualizar um produto no seu catá
 | name        | string  | Nome do produto                                |
 | price       | integer | Preço do produto                               |
 | retailerId  | string  | Id do produto                                  |
-| url         | string  | Url da rota do z-api                           |
+| url         | string  | Url da rota do Plug                            |
 
 ## Request Body
 
@@ -43,7 +43,7 @@ Nesse método você será capaz de cadastrar e atualizar um produto no seu catá
   "name": "Meu primeiro produto",
   "price": 20,
   "retailerId": "002",
-  "url": "https://z-api.io"
+  "url": "https://www.plugchat.com.br/"
 }
 ```
 

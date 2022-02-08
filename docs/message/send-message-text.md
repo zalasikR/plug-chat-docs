@@ -7,7 +7,7 @@ title: Enviar texto simples
 
 #### /send-text
 
-`POST` https://api.z-api.io/instances/SUA_INSTANCIA/token/SEU_TOKEN/send-text
+`POST` https://www.plugchat.com.br/api/whatsapp/send-text
 
 ---
 
@@ -66,7 +66,7 @@ Para fazer o teste basta copiar um emoji e colar em seu texto! Você pode utiliz
 ```json
 {
   "phone": "5511999999999",
-  "message": "Welcome to *Z-API*"
+  "message": "Welcome to *Plug Chat*"
 }
 ```
 
@@ -78,7 +78,7 @@ Para fazer o teste basta copiar um emoji e colar em seu texto! Você pode utiliz
 
 | Atributos | Tipo   | Descrição      |
 | :-------- | :----- | :------------- |
-| zaapId    | string | id no z-api    |
+| zaapId    | string | id no plug    |
 | messageId | string | id no whatsapp |
 
 Exemplo

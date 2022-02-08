@@ -8,7 +8,7 @@ title: Metadata do Grupo por Convite
 
 #### /group-invitation-metadata
 
-`GET` https://api.z-api.io/instances/SUA_INSTANCIA/token/SEU_TOKEN/group-invitation-metadata?url={**URL** **DO** **CONVITE**}
+`GET` https://www.plugchat.com.br/api/whatsapp/group-invitation-metadata?url={ **URL** **DO** **CONVITE**}
 
 ## Conceituação
 
@@ -52,7 +52,7 @@ Forma antiga -
   {
     "phone": "5511999999999-1623281429",
     "owner": "5511999999999",
-    "subject": "Meu grupo no Z-API",
+    "subject": "Meu grupo no Plug",
     "creation": 1588721491000,
     "participants": [
       {
@@ -78,7 +78,7 @@ Forma antiga -
   {
   "phone": "120363019502650977-group",
   "owner": "5511999999999",
-  "subject": "Meu grupo no Z-API",
+  "subject": "Meu grupo no Plug",
   "creation": 1588721491000,
   "participants": [
     {
@@ -90,8 +90,8 @@ Forma antiga -
       "phone": "5511777777777",
       "isAdmin": true,
       "isSuperAdmin": false,
-      "short": "ZAPIs",
-      "name": "ZAPIs Boys"
+      "short": "Plug",
+      "name": "Plug Boys"
     }
   ],
   "subjectTime": 1617805323000,

@@ -7,7 +7,7 @@ title: Pegar metadata do contato
 
 #### /contacts/{phone}
 
-`GET` https://api.z-api.io/instances/SUA_INSTANCIA/token/SEU_TOKEN/contacts/{phone}
+`GET` https://www.plugchat.com.br/api/whatsapp/contacts/{phone}
 
 ---
 
@@ -45,7 +45,7 @@ Se você pretente armazenar a imagem do seu contato observe que sempre retornamo
 
 Método
 
-`GET` https://api.z-api.io/instances/SUA_INSTANCIA/token/SEU_TOKEN/contacts/5511999999999
+`GET` https://www.plugchat.com.br/api/whatsapp/send-textcontacts/5511999999999
 
 ---
 

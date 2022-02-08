@@ -9,7 +9,7 @@
 
 module.exports = {
   tutorialSidebar: {
-    'Quick Start': ['quickstart/introduction', 'quickstart/authentication'],
+    'Quick Start': ['quickstart/introduction', ],
 
     Dicas: [
       'tips/blockednumber',
@@ -18,11 +18,10 @@ module.exports = {
       'tips/android-active',
       'tips/stability',
       'tips/emulators',
-      'tips/Z-APIvsAPI-OFICIAL',
+      
     ],
 
     Instância: [
-      'instance/introduction',
       'instance/qrcode',
       'instance/restore-session',
       'instance/restart',
@@ -108,17 +107,6 @@ module.exports = {
       'webhooks/on-whatsapp-message-status-changes',
       'webhooks/on-chat-presence',
     ],
-    Parceiros: [
-      'partner/introduction',
-      'partner/create-instance',
-      'partner/sign-instance',
-      'partner/unsubscribe-instance',
-    ],
-
-    Integradores: ['integrators/find-my-pack'],
-
-    'Multi-Devices': ['multidevices/introduction', 'multidevices/beta'],
-
     Sample: ['sample/exemplos'],
   },
 };

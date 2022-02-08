@@ -7,7 +7,7 @@ title: Pegar Produtos
 
 #### /catalogs
 
-`GET` https://api.z-api.io/instances/{{instanceId}}/token/{{instanceToken}}/catalogs
+`GET` https://www.plugchat.com.br/api/whatsapp/catalogs
 
 ---
 

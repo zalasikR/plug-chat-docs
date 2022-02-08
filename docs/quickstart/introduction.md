@@ -4,41 +4,31 @@ title: Introdução
 slug: /
 ---
 
-## Z-API - Asas para sua imaginação!
+## Plug-Chat - Multi atendimentos, via Whatsapp
 
-**Z-API** foi desenvolvido por **programadores para programadores**, por isso prezamos pela simplicidade e objetividade de tudo que nos propomos a fazer, sendo assim chega de conversa fiada e ** Let's Bora !**
+**Plug chat** foi pensado e desenvolvido para ser uma ferramenta que facilita a vida de quem **precisa prestar atendimentos via Whatsapp**, um aplicativo simples e objetivo, sendo assim, vou te contar um pouco mais.
 
 ---
 
-## Mas o que é Z-API?
+## Mas o que é o Plug-Chat?
 
 Você provavelmente já deve saber, mas vamos reafirmar!
 
-**Z-API** é um serviço RestFul que provê uma API que permite que você interaja com seu Whatsapp através uma API simples e intuitiva, além de webhooks para te avisar sobre interações com seu número.
+**Plug-Chat** É uma plataforma de multi atendimentos com diversos operadores integrados em um só numero de Whatsapp, atendendo simultaneamente. O Plug Chat te fornece tudo que você precisa! Métricas sobre atendimentos, integração com trello para criar tarefas apartir de um atendimento e pesquisa de satisfação, garantindo a qualidade do seu suporte.
+
 
 :::important Importante
 
-O Z-API utiliza o mesmo canal de comunicação utilizado pelo whatsapp web para disponibilizar as APIs. Caso você utilize a versão comum do Whatsapp, **NÃO** será possível você utilizar o whasapp web junto com Z-API.
-
-Recentemente o Whatsapp lançou a funcionalidade de múltiplos dispositivos, isso **permite** que você conecte até **4** dispositivos no seu Whatsapp. Caso essa opção **esteja ativada** em seu celular, você poderá utilizar o whatsapp web juntamente com Z-API, sem a necessidade de manter o telefone conectado a internet a todo momento.
+Recentemente o Whatsapp lançou a funcionalidade de múltiplos dispositivos, isso **permite** que você conecte até **4** dispositivos no seu Whatsapp. Caso essa opção **esteja ativada** em seu celular, você poderá utilizar o Plug-Chat, sem a necessidade de manter o telefone conectado a internet a todo momento, isso evitará problemas de conexão.
 
 :::
 
 ---
 
-## Quem pode utilizar Z-API?
-
-Não temos restrições quanto a utilização, mas geralmente são 2 públicos bem distintos que utilizam nossos serviços. São eles:
-
-- Programadores com conhecimentos em API's RestFul. Se você não é, mas conhece alguém com estas competências, já serve :)
-
-- Utilizadores de soluções de terceiros que permitam integração com Z-API
-
----
-
 ## Tábom! mas o que dá para fazer com ele?
 
-De forma bem direta, tudo que você faz com Whatsapp Web você poderá fazer utilizando nosso serviço. Para isso basta ler o QRcode do Z-API e utilizar nosso serviço!
+De forma bem direta, tudo que você faz com Whatsapp Web você poderá fazer utilizando nosso serviço. 
+E existe algumas outras funcionalidades como o top 10 clientes que mais enviam mensagens, etiquetas de marcações, mensagens rapidas, etc...
 
 ---
 
@@ -46,9 +36,9 @@ De forma bem direta, tudo que você faz com Whatsapp Web você poderá fazer uti
 
 Para exemplificar, segue os passos de envio de uma mensagem de texto simples:
 
-1. Você envia via API uma mensagem para o Z-API;
+1. Você envia via API uma mensagem para o Plug;
 
-2. O Z-API adiciona em uma fila e te retorna o ID da mensagem;
+2. O Plug adiciona em uma fila e te retorna o ID da mensagem;
 
 3. Sua instância processa a fila enviando para o WhatsApp;
 
@@ -62,22 +52,6 @@ Para exemplificar, segue os passos de envio de uma mensagem de texto simples:
 
 ## Limites
 
-Iniciei por este tópico porque é bem comum as pessoas perguntarem sobre quais os limites de envios com Z-API. Nós **NÃO TEMOS LIMITE** para número de mensagens enviadas! Mas é importante você entender que esta utilizando uma sessão do Whatsapp Web, então o padrão de utilização precisa ser compatível, além disso sempre recomendamos que você leia atentamente as políticas estabelecidas pelo proprio Whatsapp em sua pagina oficial https://www.whatsapp.com/legal.
+Iniciei por este tópico porque é bem comum as pessoas perguntarem sobre quais os limites de envios com Plug. Nós **NÃO TEMOS LIMITE** para número de mensagens enviadas! Mas é importante você entender que esta utilizando uma sessão do Whatsapp Web, então o padrão de utilização precisa ser compatível, além disso sempre recomendamos que você leia atentamente as políticas estabelecidas pelo proprio Whatsapp em sua pagina oficial https://www.whatsapp.com/legal.
 
 ---
-
-:::note **NÃO ARMAZENAMOS MENSAGENS !**
-
-Todas as mensagens enviadas para nossa API serão encaminhadas para uma fila de mensageria e após o envio as mesmas são apagadas.
-
-:::
-
-:::important Lembre-se
-
-O Facebook tem comportamentos diferentes para cada uma das versões do Whatsapp, nossa API disponibiliza métodos compativeis com a versão WEB.
-
-:::
-
-:::caution Ponto de Atenção
-
-Muito cuidado! Não se esqueça que uma vez conectado seu número ao nosso serviço você não conseguirá mais utilizar o mesmo número no Whatsapp Web. Esta limitação é temporária, tendo em vista que o Whatsapp já está divulgando uma nova funcionalidade que permitirá mais de um Whatsapp Web conectados simultaneamente.

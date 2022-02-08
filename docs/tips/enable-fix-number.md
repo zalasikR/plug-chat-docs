@@ -44,4 +44,4 @@ E pronto você receberá uma ligação do WhatsApp Business que falará o códig
 
 Seja Feliz !
 
-Faça as configurações no app Whatsapp Bussines e leia o QrCode Z-API para dar Asas para sua imaginação !
+Faça as configurações no app Whatsapp Bussines e leia o QrCode Do Plug para dar inicio ao multi atendimento humanizado!

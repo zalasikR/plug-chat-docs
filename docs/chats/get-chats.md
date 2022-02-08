@@ -7,7 +7,7 @@ title: Pegar chats
 
 #### /chats
 
-`GET` https://api.z-api.io/instances/SUA_INSTANCIA/token/SEU_TOKEN/chats
+`GET` https://www.plugchat.com.br/api/whatsapp/chats
 
 ---
 
@@ -40,7 +40,7 @@ Este método é reponsavel por retornar todos os chats.
 
 Método
 
-`GET` https://api.z-api.io/instances/SUA_INSTANCIA/token/SEU_TOKEN/chats
+`GET` https://www.plugchat.com.br/api/whatsapp/chats
 
 ---
 
@@ -64,7 +64,7 @@ Exemplo
 ```json
 [
   {
-    "name": "Z-API SUPORTE",
+    "name": "Plug-suporte",
     "phone": "5511999999999",
     "unread": "0",
     "lastMessageTime": "1622991687",
@@ -74,7 +74,7 @@ Exemplo
     "messagesUnread": 0
   },
   {
-    "name": "Z-api - Team",
+    "name": "Plug-Team",
     "phone": "5511999999999",
     "unread": "0",
     "lastMessageTime": "1622990503",

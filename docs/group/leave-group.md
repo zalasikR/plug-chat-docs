@@ -8,7 +8,7 @@ title: Sair do grupo
 
 #### /leave-group
 
-`POST` https://api.z-api.io/instances/SUA_INSTANCIA/token/SEU_TOKEN/leave-group
+`POST` https://www.plugchat.com.br/api/whatsapp/leave-group
 
 ## Conceituação
 
@@ -41,7 +41,7 @@ No dia 4 de novembro de 2021 o whatsapp alterou a formato da criação de novos 
 
 #### URL
 
-`POST` https://api.z-api.io/instances/SUA_INSTANCIA/token/SEU_TOKEN/leave-group
+`POST` https://www.plugchat.com.br/api/whatsapp/leave-group
 
 #### Body
 

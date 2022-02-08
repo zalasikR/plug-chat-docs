@@ -7,7 +7,7 @@ title: Pegar contatos
 
 #### /contacts
 
-`GET` https://api.z-api.io/instances/SUA_INSTANCIA/token/SEU_TOKEN/contacts
+`GET` https://www.plugchat.com.br/api/whatsapp/contacts
 
 ---
 
@@ -40,7 +40,7 @@ Este método é reponsavel por retornar todos os contatos do Whatsapp. Lembre-se
 
 Método
 
-`GET` https://api.z-api.io/instances/SUA_INSTANCIA/token/SEU_TOKEN/contacts?page=1&pageSize=20
+`GET` https://www.plugchat.com.br/api/whatsapp/contacts?page=1&pageSize=20
 
 ---
 

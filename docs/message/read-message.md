@@ -7,7 +7,7 @@ title: Ler mensagens
 
 #### /read-message
 
-`POST` https://api.z-api.io/instances/SUA_INSTANCIA/token/SEU_TOKEN/read-message
+`POST` https://www.plugchat.com.br/api/whatsapp/read-message
 
 ---
 

@@ -7,13 +7,13 @@ title: Desconectar
 
 #### /disconnect
 
-`GET` https://api.z-api.io/instances/SUA_INSTANCIA/token/SEU_TOKEN/disconnect
+`GET` https://www.plugchat.com.br/api/whatsapp/disconnect
 
 ---
 
 ## Conceituação
 
-Este método desconecta seu número do Z-API.
+Este método desconecta seu número do Plug.
 
 Mas não se preocupe, para conectar novamente bastar ler o QRCode :)
 

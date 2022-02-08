@@ -7,7 +7,7 @@ title: Adicionar Participantes
 
 #### /add-participant
 
-`POST` https://api.z-api.io/instances/SUA_INSTANCIA/token/SEU_TOKEN/add-participant
+`POST` https://www.plugchat.com.br/api/whatsapp/add-participant
 
 ## Conceituação
 
@@ -41,7 +41,7 @@ No dia 4 de novembro de 2021 o whatsapp alterou a formato da criação de novos 
 
 #### URL
 
-`POST` https://api.z-api.io/instances/SUA_INSTANCIA/token/SEU_TOKEN/add-participant
+`POST` https://www.plugchat.com.br/api/whatsapp/add-participant
 
 #### Body
 

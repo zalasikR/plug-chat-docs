@@ -7,7 +7,7 @@ title: Apagando msg fila
 
 #### /queue/{zaapid}
 
-`DELETE` https://api.z-api.io/instances/SUA_INSTANCIA/token/SEU_TOKEN/queue/{zaapid}
+`DELETE` https://www.plugchat.com.br/api/whatsapp/queue/{zaapid}
 
 ## Conceituação
 
@@ -37,7 +37,7 @@ Este método é reponsavel por deletar uma mensagem dentro de fila aguardando pa
 
 Método
 
-`DELETE` https://api.z-api.io/instances/SUA_INSTANCIA/token/SEU_TOKEN/queue/{zaapid}
+`DELETE` https://www.plugchat.com.br/api/whatsapp/queue/{zaapid}
 
 ---
 

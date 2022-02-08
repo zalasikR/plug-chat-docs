@@ -7,7 +7,7 @@ title: Enviar contato
 
 #### /send-contact
 
-`POST` https://api.z-api.io/instances/SUA_INSTANCIA/token/SEU_TOKEN/send-contact
+`POST` https://www.plugchat.com.br/api/whatsapp/send-contact
 
 ---
 
@@ -42,8 +42,8 @@ Simples e objetivo este método permite você enviar um contato, você não prec
 ```json
 {
   "phone": "5511999999999",
-  "contactName": "Z-API Contato",
-  "contactPhone": "554498398733"
+  "contactName": "Plug-Contato",
+  "contactPhone": "554431236157"
 }
 ```
 
@@ -55,7 +55,7 @@ Simples e objetivo este método permite você enviar um contato, você não prec
 
 | Atributos | Tipo   | Descrição      |
 | :-------- | :----- | :------------- |
-| zaapId    | string | id no z-api    |
+| zaapId    | string | id no plug    |
 | messageId | string | id no whatsapp |
 
 Exemplo

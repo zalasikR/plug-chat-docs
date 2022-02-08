@@ -7,7 +7,7 @@ title: Enviar video
 
 #### /send-video
 
-`POST` https://api.z-api.io/instances/SUA_INSTANCIA/token/SEU_TOKEN/send-video
+`POST` https://www.plugchat.com.br/api/whatsapp/send-video
 
 ---
 
@@ -64,7 +64,7 @@ Neste [link] você encontra tudo que precisa saber sobre formatos e tamanhos de 
 
 | Atributos | Tipo   | Descrição      |
 | :-------- | :----- | :------------- |
-| zaapId    | string | id no z-api    |
+| zaapId    | string | id no plug    |
 | messageId | string | id no whatsapp |
 
 Exemplo

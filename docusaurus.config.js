@@ -14,7 +14,7 @@ module.exports = {
     locales: ['pt', 'en'],
   },
   title: 'Plug Chat Docs',
-  tagline: 'Documentação completa da API',
+  tagline: 'Documentação completa do Plug Chat',
   url: 'https://developer.plug-chat.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',

@@ -8,15 +8,15 @@ title: Delivery
 
 #### /update-webhook-delivery
 
-`PUT` https://api.z-api.io/instances/SUA_INSTANCIA/token/SEU_TOKEN/update-webhook-delivery
+`PUT` https://www.plugchat.com.br/api/whatsapp/update-webhook-delivery
 
 ## Conceituação
 
-O Este método é reponsavel por atualizar/adicionar o seu EndPoint para o webhook de **delivery** via API, ou seja, sem a necessidade de acessar o admin Z-API.
+O Este método é reponsavel por atualizar/adicionar o seu EndPoint para o webhook de **delivery** via API, ou seja, sem a necessidade de acessar o admin Plug.
 
 :::caution Atenção
 
-O Z-API não aceita webhooks que não sejam HTTPS
+O Plug não aceita webhooks que não sejam HTTPS
 
 :::
 
@@ -45,7 +45,7 @@ O Z-API não aceita webhooks que não sejam HTTPS
 
 #### URL
 
-`PUT` https://api.z-api.io/instances/SUA_INSTANCIA/token/SEU_TOKEN/update-webhook-delivery
+`PUT` https://www.plugchat.com.br/api/whatsapp/update-webhook-delivery
 
 #### Body
 

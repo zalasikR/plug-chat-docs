@@ -7,7 +7,7 @@ title: Pegar imagem do contato
 
 #### /profile-picture
 
-`GET` https://api.z-api.io/instances/SUA_INSTANCIA/token/SEU_TOKEN/profile-picture
+`GET` https://www.plugchat.com.br/api/whatsapp/profile-picture
 
 ---
 
@@ -43,7 +43,7 @@ Se você pretente armazenar a imagem do seu contato observe que sempre retornamo
 
 Método
 
-`GET` https://api.z-api.io/instances/SUA_INSTANCIA/token/SEU_TOKEN/profile-picture?phone=551199999999
+`GET` https://www.plugchat.com.br/api/whatsapp/profile-picture?phone=551199999999
 
 ---
 

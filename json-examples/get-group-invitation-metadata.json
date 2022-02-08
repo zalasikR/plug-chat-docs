@@ -1,6 +1,6 @@
 {
   "method": "GET",
-  "url": "https://api.z-api.io/instances/SUA_INSTANCIA/token/SEU_TOKEN/group-invitation-metadata?url={**URL DO CONVITE**}",
+  "url": "https://www.plugchat.com.br/api/whatsapp/group-invitation-metadata?url={**URL DO CONVITE**}",
   "httpVersion": "HTTP/1.1",
   "queryString": [],
   "headers": [

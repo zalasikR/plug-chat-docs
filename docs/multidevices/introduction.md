@@ -47,9 +47,9 @@ Talvez não se trate bem de limitações, mas sim de recursos ainda não compat�
 
 ---
 
-## Compatibilidade com Z-API
+## Compatibilidade com Plug
 
-E o Z-API é compatível com esta nova versão ?
+E o Plug é compatível com esta nova versão ?
 
 Sim ! Temos orgulho em compartilhar que conseguimos compatibilizar todos os métodos e abstrair toda complexidade da nova versão afim de entregar à nossos clientes de uma forma simples e transparente todos recursos desta nova versão.
 

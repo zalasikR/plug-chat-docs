@@ -7,7 +7,7 @@ title: Atualizar imagem do grupo
 
 #### /update-group-photo
 
-`POST` https://api.z-api.io/instances/SUA_INSTANCIA/token/SEU_TOKEN/update-group-photo
+`POST` https://www.plugchat.com.br/api/whatsapp/update-group-photo
 
 ---
 
@@ -45,14 +45,14 @@ No dia 4 de novembro de 2021 o whatsapp alterou a formato da criação de novos 
 
 Método
 
-`POST` https://api.z-api.io/instances/SUA_INSTANCIA/token/SEU_TOKEN/update-group-photo
+`POST` https://www.plugchat.com.br/api/whatsapp/update-group-photo
 
 #### Body
 
 ```json
 {
   "groupId": "string",
-  "groupPhoto": "https://www.z-api.io/wp-content/themes/z-api/dist/images/logo.svg"
+  "groupPhoto": "https://www.plugchat.com.br/imgs/blue.png"
 }
 ```
 

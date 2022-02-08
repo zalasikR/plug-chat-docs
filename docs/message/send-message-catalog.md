@@ -7,7 +7,7 @@ title: Enviar catálogo
 
 #### /
 
-`POST` https://api.z-api.io/instances/SUA_INSTANCIA/token/SEU_TOKEN/
+`POST` https://www.plugchat.com.br/api/whatsapp/send-text
 
 ---
 

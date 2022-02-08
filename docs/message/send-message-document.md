@@ -7,7 +7,7 @@ title: Enviar documentos
 
 #### /send-document/{extension}
 
-`POST` https://api.z-api.io/instances/SUA_INSTANCIA/token/SEU_TOKEN/send-document/ **{extension}**
+`POST` https://www.plugchat.com.br/api/whatsapp/send-document/ **{extension}**
 
 > **Não se esqueça!** Você precisa informar o parâmetro **{extension}** com a extensão do aquivo que deseja enviar ! Teóricamente este método deve suportar todos tipos de documentos, desde que eles estejam dentro das politícas de tamanho de aquivos do proprio Whatsaspp (para saber mais sobre estes limites [clique aqui]).
 
@@ -66,7 +66,7 @@ Método responsavel por enviar documentos aos seus contatos ele é simples e obj
 
 | Atributos | Tipo   | Descrição      |
 | :-------- | :----- | :------------- |
-| zaapId    | string | id no z-api    |
+| zaapId    | string | id no plug    |
 | messageId | string | id no whatsapp |
 
 Exemplo

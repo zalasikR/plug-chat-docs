@@ -7,7 +7,7 @@ title: Alterar descrição
 
 #### /update-group-description
 
-`POST` https://api.z-api.io/instances/SUA_INSTANCIA/token/SEU_TOKEN/update-group-description
+`POST` https://www.plugchat.com.br/api/whatsapp/update-group-description
 
 ## Conceituação
 

@@ -7,7 +7,7 @@ title: Criando uma instância
 
 #### /on-demand
 
-`POST` https://api.z-api.io/instances/integrator/on-demand
+`POST` https://www.plugchat.com.br/api/whatsapp/on-demand
 
 ---
 
@@ -54,13 +54,13 @@ Caso você não realize a assinatura em até 2 dias nosso devops vai automaticam
 
 **Método**
 
-`POST` https://api.z-api.io/instances/integrator/on-demand
+`POST` https://www.plugchat.com.br/api/whatsapp/on-demand
 
 **Exemplo**
 
 ```json
 {
-  "name": "Instancia Z-API - 9292812",
+  "name": "Instancia Plug - 9292812",
   "deliveryCallbackUrl": "https://meuwebhook.com.br/delivery",
   "receivedCallbackUrl": "https://meuwebhook.com.br/receive",
   "disconnectedCallbackUrl": "https://meuwebhook.com.br/disconnected",

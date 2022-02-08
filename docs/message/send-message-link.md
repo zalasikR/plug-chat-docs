@@ -7,7 +7,7 @@ title: Enviar link
 
 #### /send-link
 
-`POST` https://api.z-api.io/instances/SUA_INSTANCIA/token/SEU_TOKEN/send-link
+`POST` https://www.plugchat.com.br/api/whatsapp/send-link
 
 ---
 
@@ -50,11 +50,11 @@ Método responsavel por enviar um link aos seus contatos, muito utilzado para co
 ```json
 {
   "phone": "5511999998888",
-  "message": "Aqui você coloca um texto sobre o site, atenção esse texto preciso ter o link que será enviado no final da mensagem! Assim: https://z-api.io",
+  "message": "Aqui você coloca um texto sobre o site, atenção esse texto preciso ter o link que será enviado no final da mensagem! Assim: https://www.plugchat.com.br/",
   "image": "https://firebasestorage.googleapis.com/v0/b/zaap-messenger-web.appspot.com/o/logo.png?alt=media",
-  "linkUrl": "https://z-api.io",
-  "title": "Z-API",
-  "linkDescription": "Integração com o whatsapp"
+  "linkUrl": "https://www.plugchat.com.br/",
+  "title": "Plug Chat",
+  "linkDescription": "Centralize Seu Atendimento No Whatsapp Com Plug Chat"
 }
 ```
 
@@ -66,7 +66,7 @@ Método responsavel por enviar um link aos seus contatos, muito utilzado para co
 
 | Atributos | Tipo   | Descrição      |
 | :-------- | :----- | :------------- |
-| zaapId    | string | id no z-api    |
+| zaapId    | string | id no plug    |
 | messageId | string | id no whatsapp |
 
 Exemplo

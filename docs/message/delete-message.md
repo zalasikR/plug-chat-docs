@@ -7,7 +7,7 @@ title: Deletar mensagens
 
 #### /messages
 
-`DELETE` https://api.z-api.io/instances/SUA_INSTANCIA/token/SEU_TOKEN/messages
+`DELETE` https://www.plugchat.com.br/api/whatsapp/messages
 
 ---
 
@@ -43,7 +43,7 @@ Método
 
 `DELETE`
 
-https://api.z-api.io/instances/SUA_INSTANCIA/token/SEU_TOKEN/messages?messageId=123&phone=5511999998888&owner=true
+https://www.plugchat.com.br/api/whatsapp/messages?messageId=123&phone=5511999998888&owner=true
 
 ---
 

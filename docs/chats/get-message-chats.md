@@ -7,7 +7,7 @@ title: Pegar mensagens do chat
 
 #### /chat-messages/{phone}
 
-`GET` https://api.z-api.io/instances/SUA_INSTANCIA/token/SEU_TOKEN/chat-messages/{phone}
+`GET` https://www.plugchat.com.br/api/whatsapp/chat-messages/{phone}
 
 ---
 
@@ -41,7 +41,7 @@ Este método é reponsavel por retornar todas conversas de um chat.
 
 Método
 
-`GET` https://api.z-api.io/instances/SUA_INSTANCIA/token/SEU_TOKEN/chat-messages/{phone}
+`GET` https://www.plugchat.com.br/api/whatsapp/chat-messages/{phone}
 
 ---
 
@@ -74,7 +74,7 @@ Segue Json conforme sequência abaixo:
     "fromMe": false,
     "momment": 1623008318000,
     "status": "RECEIVED",
-    "chatName": "Z-API Suporte",
+    "chatName": "Plug Suporte",
     "senderPhoto": "https://pps.whatsapp.net/v/t61.24694-24/170931400_212202650511993_3423338295209291992_n.jpg?ccb=11-4&oh=4b96b3bf7114122667f80d021b194f2c&oe=60C179E2",
     "senderName": "5511999999999",
     "participantPhone": null,
@@ -91,9 +91,9 @@ Segue Json conforme sequência abaixo:
     "fromMe": false,
     "momment": 1623008355000,
     "status": "RECEIVED",
-    "chatName": "Z-API Suporte",
+    "chatName": "Plug Suporte",
     "senderPhoto": "https://pps.whatsapp.net/v/t61.24694-24/170931400_212202650511993_3423338295209291992_n.jpg?ccb=11-4&oh=4b96b3bf7114122667f80d021b194f2c&oe=60C179E2",
-    "senderName": "Z-API Suporte",
+    "senderName": "Plug Suporte",
     "participantPhone": null,
     "photo": "https://pps.whatsapp.net/v/t61.24694-24/170931400_212202650511993_3423338295209291992_n.jpg?ccb=11-4&oh=4b96b3bf7114122667f80d021b194f2c&oe=60C179E2",
     "broadcast": false,
@@ -111,9 +111,9 @@ Segue Json conforme sequência abaixo:
     "fromMe": false,
     "momment": 1623008445000,
     "status": "RECEIVED",
-    "chatName": "Z-API Suporte",
+    "chatName": "Plug Suporte",
     "senderPhoto": "https://pps.whatsapp.net/v/t61.24694-24/170931400_212202650511993_3423338295209291992_n.jpg?ccb=11-4&oh=4b96b3bf7114122667f80d021b194f2c&oe=60C179E2",
-    "senderName": "Z-API Suporte",
+    "senderName": "PLug Suporte",
     "participantPhone": null,
     "photo": "https://pps.whatsapp.net/v/t61.24694-24/170931400_212202650511993_3423338295209291992_n.jpg?ccb=11-4&oh=4b96b3bf7114122667f80d021b194f2c&oe=60C179E2",
     "broadcast": false,
@@ -132,14 +132,14 @@ Segue Json conforme sequência abaixo:
     "fromMe": false,
     "momment": 1623008464000,
     "status": "RECEIVED",
-    "chatName": "Z-API Suporte",
+    "chatName": "Plug Suporte",
     "senderPhoto": "https://pps.whatsapp.net/v/t61.24694-24/170931400_212202650511993_3423338295209291992_n.jpg?ccb=11-4&oh=4b96b3bf7114122667f80d021b194f2c&oe=60C179E2",
-    "senderName": "Z-API Suporte",
+    "senderName": "Plug Suporte",
     "participantPhone": null,
     "photo": "https://pps.whatsapp.net/v/t61.24694-24/170931400_212202650511993_3423338295209291992_n.jpg?ccb=11-4&oh=4b96b3bf7114122667f80d021b194f2c&oe=60C179E2",
     "broadcast": false,
     "contact": {
-      "displayName": "Z-api - Atendimento",
+      "displayName": "Plug - Atendimento",
       "vCard": "BEGIN:VCARD\nVERSION:3.0\nN:;Z-api - Atendimento;;;\nFN:Z-api - Atendimento\nTEL;type=CELL;waid=554498398733:+55 44 9839-8733\nX-WA-BIZ-NAME:Z-api - Atendimento\nX-WA-BIZ-DESCRIPTION:Whatsapp para programadores!\nEND:VCARD",
       "phones": ["5511999999999"]
     }
@@ -151,9 +151,9 @@ Segue Json conforme sequência abaixo:
     "fromMe": false,
     "momment": 1623008479000,
     "status": "RECEIVED",
-    "chatName": "Z-API Suporte",
+    "chatName": "Plug Suporte",
     "senderPhoto": "https://pps.whatsapp.net/v/t61.24694-24/170931400_212202650511993_3423338295209291992_n.jpg?ccb=11-4&oh=4b96b3bf7114122667f80d021b194f2c&oe=60C179E2",
-    "senderName": "Z-API Suporte",
+    "senderName": "Plug Suporte",
     "participantPhone": null,
     "photo": "https://pps.whatsapp.net/v/t61.24694-24/170931400_212202650511993_3423338295209291992_n.jpg?ccb=11-4&oh=4b96b3bf7114122667f80d021b194f2c&oe=60C179E2",
     "broadcast": false,
@@ -168,17 +168,17 @@ Segue Json conforme sequência abaixo:
     "fromMe": false,
     "momment": 1623008501000,
     "status": "RECEIVED",
-    "chatName": "Z-API Suporte",
+    "chatName": "Plug Suporte",
     "senderPhoto": "https://pps.whatsapp.net/v/t61.24694-24/170931400_212202650511993_3423338295209291992_n.jpg?ccb=11-4&oh=4b96b3bf7114122667f80d021b194f2c&oe=60C179E2",
-    "senderName": "Z-API Suporte",
+    "senderName": "Plug Suporte",
     "participantPhone": null,
     "photo": "https://pps.whatsapp.net/v/t61.24694-24/170931400_212202650511993_3423338295209291992_n.jpg?ccb=11-4&oh=4b96b3bf7114122667f80d021b194f2c&oe=60C179E2",
     "broadcast": false,
     "text": {
-      "message": "https://www.z-api.io/",
-      "url": "https://www.z-api.io/",
+      "message": "https://www.plugchat.com.br/",
+      "url": "https://www.plugchat.com.br/",
       "urlDescription": null,
-      "urlTitle": "Whatsapp API: Integre sua empresa | Z-API",
+      "urlTitle": "Canal de multi atendimento| Plug",
       "isCatalog": false
     }
   }

@@ -7,7 +7,7 @@ title: Fixar chats
 
 #### /modify-chat
 
-`POST` https://api.z-api.io/instances/SUA_INSTANCIA/token/SEU_TOKEN/modify-chat
+`POST` https://www.plugchat.com.br/api/whatsapp/modify-chat
 
 ---
 

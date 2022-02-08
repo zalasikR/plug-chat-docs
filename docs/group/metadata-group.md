@@ -8,7 +8,7 @@ title: Metadata do Grupo
 
 #### /group-metadata
 
-`GET` https://api.z-api.io/instances/SUA_INSTANCIA/token/SEU_TOKEN/group-metadata
+`GET` https://www.plugchat.com.br/api/whatsapp/group-metadata
 
 ## Conceituação
 
@@ -41,7 +41,7 @@ No dia 4 de novembro de 2021 o whatsapp alterou a formato da criação de novos 
 
 #### URL
 
-`POST` https://api.z-api.io/instances/SUA_INSTANCIA/token/SEU_TOKEN/group-metadata/{phone}
+`POST` https://www.plugchat.com.br/api/whatsapp/group-metadata/{phone}
 
 ---
 
@@ -75,7 +75,7 @@ Forma antiga -
   {
     "phone": "5511999999999-1623281429",
     "owner": "5511999999999",
-    "subject": "Meu grupo no Z-API",
+    "subject": "Meu grupo no PLug",
     "creation": 1588721491000,
     "participants": [
       {
@@ -87,8 +87,8 @@ Forma antiga -
         "phone": "5511777777777",
         "isAdmin": true,
         "isSuperAdmin": false,
-        "short": "ZAPIs",
-        "name": "ZAPIs Boys"
+        "short": "Plug",
+        "name": "Plug Boys"
       }
     ],
     "subjectTime": 1617805323000,
@@ -101,7 +101,7 @@ Forma antiga -
   {
   "phone": "120363019502650977-group",
   "owner": "5511999999999",
-  "subject": "Meu grupo no Z-API",
+  "subject": "Meu grupo no Plug",
   "creation": 1588721491000,
   "participants": [
     {
@@ -113,8 +113,8 @@ Forma antiga -
       "phone": "5511777777777",
       "isAdmin": true,
       "isSuperAdmin": false,
-      "short": "ZAPIs",
-      "name": "ZAPIs Boys"
+      "short": "Plug",
+      "name": "Plug Boys"
     }
   ],
   "subjectTime": 1617805323000,

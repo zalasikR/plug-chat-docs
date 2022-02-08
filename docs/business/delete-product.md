@@ -7,7 +7,7 @@ title: Deletar Produto
 
 #### /products/id-do-produto
 
-`DELETE` https://api.z-api.io/instances/{{instanceId}}/token/{{instanceToken}}/products/{{id-do-produto}}
+`DELETE` https://www.plugchat.com.br/api/whatsapp/products/{{id-do-produto}}
 
 ---
 

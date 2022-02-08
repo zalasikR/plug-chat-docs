@@ -7,7 +7,7 @@ title: Enviando imagem status
 
 #### /send-image-status
 
-`POST` https://api.z-api.io/instances/SUA_INSTANCIA/token/SEU_TOKEN/send-image-status
+`POST` https://www.plugchat.com.br/api/whatsapp/send-image-status
 
 ---
 
@@ -39,13 +39,13 @@ Método responsavel por enviar uma imagem para seu status, lembre-se que os stat
 
 Método
 
-`POST` https://api.z-api.io/instances/SUA_INSTANCIA/token/SEU_TOKEN/send-image-status
+`POST` https://www.plugchat.com.br/api/whatsapp/send-image-status
 
 #### Body
 
 ```json
 {
-  "image": "https://www.z-api.io/wp-content/themes/z-api/dist/images/logo.svg"
+  "image": "https://www.plugchat.com.br/imgs/blue.png"
 }
 ```
 
@@ -63,7 +63,7 @@ Se você tem duvidas em como enviar uma imagem Base64 acesse o tópico mensagens
 
 | Atributos | Tipo   | Descrição      |
 | :-------- | :----- | :------------- |
-| zaapId    | string | id no z-api    |
+| zaapId    | string | id no Plug    |
 | messageId | string | id no whatsapp |
 
 Exemplo
