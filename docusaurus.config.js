@@ -25,9 +25,8 @@ module.exports = {
   themeConfig: {
     navbar: {
       logo: {
-        alt: 'Z-API Logo',
-        src:
-          'https://www.z-api.io/wp-content/themes/z-api/dist/images/logo.svg',
+        alt: 'Plug Chat Logo',
+        src: 'https://www.plugchat.com.br/imgs/white.png',
       },
       items: [],
     },
