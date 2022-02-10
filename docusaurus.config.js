@@ -19,7 +19,7 @@ module.exports = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'https://www.z-api.io/wp-content/themes/z-api/favicon.png',
+  favicon: './favicon.png',
   organizationName: 'PLUG CHAT',
   projectName: 'plug-chat-docs',
   themeConfig: {
@@ -113,7 +113,7 @@ module.exports = {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/Z-API/z-api-docs/tree/main',
+          editUrl: 'https://github.com/fourpixelit/plug-chat-docs/tree/main',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
