@@ -9,7 +9,7 @@
 
 module.exports = {
   tutorialSidebar: {
-    'Quick Start': ['quickstart/introduction', ],
+    'Quick Start': ['quickstart/introduction'],
 
     Dicas: [
       'tips/blockednumber',
@@ -18,7 +18,6 @@ module.exports = {
       'tips/android-active',
       'tips/stability',
       'tips/emulators',
-      
     ],
 
     Instância: [
@@ -39,8 +38,6 @@ module.exports = {
       'message/send-message-document',
       'message/send-message-link',
       'message/send-message-location',
-      /* 'send-message/send-message-product',
-      'send-message/send-message-catalog',*/
       'message/send-message-contact',
       'message/send-button-list',
       'message/send-option-list',
