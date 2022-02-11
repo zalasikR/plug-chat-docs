@@ -9,6 +9,14 @@ title: Pegar mensagens do chat
 
 `GET` https://www.plugchat.com.br/api/whatsapp/chat-messages/{phone}
 
+## Header
+#### Toda requisição http feita precisa passar sua header de autorização.
+
+
+| Key            | Value                   |
+| :------------: |   :---------------:     |
+| Authorization: |   1nEFbU3EktLnV7LIIzX   |
+
 ---
 
 ## Conceituação
@@ -42,6 +50,7 @@ Este método é reponsavel por retornar todas conversas de um chat.
 Método
 
 `GET` https://www.plugchat.com.br/api/whatsapp/chat-messages/{phone}
+
 
 ---
 

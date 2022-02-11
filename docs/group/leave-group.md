@@ -10,6 +10,14 @@ title: Sair do grupo
 
 `POST` https://www.plugchat.com.br/api/whatsapp/leave-group
 
+## Header
+#### Toda requisição http feita precisa passar sua header de autorização.
+
+
+| Key            | Value                   |
+| :------------: |   :---------------:     |
+| Authorization: |   1nEFbU3EktLnV7LIIzX   |
+
 ## Conceituação
 
 Este método permite você sair de um grupo ao qual participa.

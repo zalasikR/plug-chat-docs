@@ -3,6 +3,14 @@ id: reply-message
 title: Responder mensagem
 ---
 
+## Header
+#### Toda requisição http feita precisa passar sua header de autorização.
+
+
+| Key            | Value                   |
+| :------------: |   :---------------:     |
+| Authorization: |   1nEFbU3EktLnV7LIIzX   |
+
 ## Conceituação
 
 Nesse tópico falaremos um pouco sobre como responder uma mensagem diretamente!

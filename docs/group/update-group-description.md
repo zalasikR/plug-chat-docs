@@ -9,6 +9,14 @@ title: Alterar descrição
 
 `POST` https://www.plugchat.com.br/api/whatsapp/update-group-description
 
+## Header
+#### Toda requisição http feita precisa passar sua header de autorização.
+
+
+| Key            | Value                   |
+| :------------: |   :---------------:     |
+| Authorization: |   1nEFbU3EktLnV7LIIzX   |
+
 ## Conceituação
 
 Este método permite você alterar a descrição do grupo.

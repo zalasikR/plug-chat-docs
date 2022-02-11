@@ -7,6 +7,7 @@ title: Status do chat
 
 #### `POST` on-chat-presence
 
+
 ## Conceituação
 
 Esse é o webhook de retorno status do chat
@@ -28,6 +29,14 @@ Para atualizar a rota do webhook é possível fazer isso pela API.
 #### /update-webhook-chat-presence
 
 `PUT` https://www.plugchat.com.br/api/whatsapp/update-webhook-chat-presence
+
+## Header
+#### Toda requisição http feita precisa passar sua header de autorização.
+
+
+| Key            | Value                   |
+| :------------: |   :---------------:     |
+| Authorization: |   1nEFbU3EktLnV7LIIzX   |
 
 #### Request Body
 

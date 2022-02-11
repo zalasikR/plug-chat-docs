@@ -9,6 +9,14 @@ title: Apagando msg fila
 
 `DELETE` https://www.plugchat.com.br/api/whatsapp/queue/{zaapid}
 
+## Header
+#### Toda requisição http feita precisa passar sua header de autorização.
+
+
+| Key            | Value                   |
+| :------------: |   :---------------:     |
+| Authorization: |   1nEFbU3EktLnV7LIIzX   |
+
 ## Conceituação
 
 Este método é reponsavel por deletar uma mensagem dentro de fila aguardando para ser processada.

@@ -21,6 +21,14 @@ Neste [link] você encontra tudo que precisa saber sobre formatos e tamanhos de 
 
 [link]: https://developers.facebook.com/docs/whatsapp/api/media
 
+## Header
+#### Toda requisição http feita precisa passar sua header de autorização.
+
+
+| Key            | Value                   |
+| :------------: |   :---------------:     |
+| Authorization: |   1nEFbU3EktLnV7LIIzX   |
+
 ---
 
 ## Conceituação

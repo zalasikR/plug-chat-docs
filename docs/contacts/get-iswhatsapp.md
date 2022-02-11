@@ -9,6 +9,14 @@ title: Número com Whatsapp ?
 
 `GET` https://www.plugchat.com.br/api/whatsapp/phone-exists
 
+## Header
+#### Toda requisição http feita precisa passar sua header de autorização.
+
+
+| Key            | Value                   |
+| :------------: |   :---------------:     |
+| Authorization: |   1nEFbU3EktLnV7LIIzX   |
+
 ## Conceituação
 
 Este método retorna se o número tem ou não Whatsapp.

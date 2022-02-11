@@ -10,6 +10,14 @@ title: Metadata do Grupo por Convite
 
 `GET` https://www.plugchat.com.br/api/whatsapp/group-invitation-metadata?url={ **URL** **DO** **CONVITE**}
 
+## Header
+#### Toda requisição http feita precisa passar sua header de autorização.
+
+
+| Key            | Value                   |
+| :------------: |   :---------------:     |
+| Authorization: |   1nEFbU3EktLnV7LIIzX   |
+
 ## Conceituação
 
 Este método retorna o metadata do grupo com todas informações do grupo e de seus partipantes.

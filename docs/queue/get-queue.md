@@ -9,6 +9,14 @@ title: Fila
 
 `GET` https://www.plugchat.com.br/api/whatsapp/queue
 
+## Header
+#### Toda requisição http feita precisa passar sua header de autorização.
+
+
+| Key            | Value                   |
+| :------------: |   :---------------:     |
+| Authorization: |   1nEFbU3EktLnV7LIIzX   |
+
 ## Conceituação
 
 Este método é reponsavel por retornar todas mensagens que estão em sua fila aguardando para ser processada.

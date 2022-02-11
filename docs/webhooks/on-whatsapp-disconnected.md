@@ -29,6 +29,14 @@ Para atualizar a rota do webhook é possível fazer isso pela API.
 
 `PUT` https://www.plugchat.com.br/api/whatsapp/update-webhook-disconnected
 
+## Header
+#### Toda requisição http feita precisa passar sua header de autorização.
+
+
+| Key            | Value                   |
+| :------------: |   :---------------:     |
+| Authorization: |   1nEFbU3EktLnV7LIIzX   |
+
 #### Request Body
 
 #### Body
