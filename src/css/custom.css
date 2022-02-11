@@ -15,14 +15,14 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #455cc7;
-  --ifm-color-primary-dark: #455cc7;
-  --ifm-color-primary-darker: #455cc7;
-  --ifm-color-primary-darkest: #455cc7;
-  --ifm-color-primary-light: #455cc7;
-  --ifm-color-primary-lighter: #455cc7;
-  --ifm-color-primary-lightest: #455cc7;
-  --ifm-navbar-background-color: #455cc7;
+  --ifm-color-primary: #4169e1;
+  --ifm-color-primary-dark: #4169e1;
+  --ifm-color-primary-darker: #4169e1;
+  --ifm-color-primary-darkest: #4169e1;
+  --ifm-color-primary-light: #4169e1;
+  --ifm-color-primary-lighter: #4169e1;
+  --ifm-color-primary-lightest: #4169e1;
+  --ifm-navbar-background-color: #4169e1;
   --ifm-navbar-link-color: #ccc;
   --ifm-code-font-size: 95%;
 }
