@@ -90,7 +90,7 @@ BASE64
 
 | Atributos | Tipo   | Descrição      |
 | :-------- | :----- | :------------- |
-| zaapId    | string | id no plug    |
+| zaapId    | string | id no plug     |
 | messageId | string | id no whatsapp |
 
 Exemplo

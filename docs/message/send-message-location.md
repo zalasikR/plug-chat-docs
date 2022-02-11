@@ -58,7 +58,7 @@ Método responsavel por enviar uma localização fixa aos seus contatos, muito u
 
 | Atributos | Tipo   | Descrição      |
 | :-------- | :----- | :------------- |
-| zaapId    | string | id no plug    |
+| zaapId    | string | id no plug     |
 | messageId | string | id no whatsapp |
 
 Exemplo

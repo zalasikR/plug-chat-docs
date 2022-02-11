@@ -66,7 +66,7 @@ Método responsavel por enviar um link aos seus contatos, muito utilzado para co
 
 | Atributos | Tipo   | Descrição      |
 | :-------- | :----- | :------------- |
-| zaapId    | string | id no plug    |
+| zaapId    | string | id no plug     |
 | messageId | string | id no whatsapp |
 
 Exemplo

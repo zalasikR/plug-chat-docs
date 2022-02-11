@@ -78,7 +78,7 @@ Para fazer o teste basta copiar um emoji e colar em seu texto! Você pode utiliz
 
 | Atributos | Tipo   | Descrição      |
 | :-------- | :----- | :------------- |
-| zaapId    | string | id no plug    |
+| zaapId    | string | id no plug     |
 | messageId | string | id no whatsapp |
 
 Exemplo

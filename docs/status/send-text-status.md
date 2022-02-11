@@ -59,7 +59,7 @@ Método
 
 | Atributos | Tipo   | Descrição      |
 | :-------- | :----- | :------------- |
-| zaapId    | string | id no Plug    |
+| zaapId    | string | id no Plug     |
 | messageId | string | id no whatsapp |
 
 Exemplo

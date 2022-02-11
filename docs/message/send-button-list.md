@@ -82,7 +82,7 @@ Neste método você poderá enviar mensagens de texto com botões de ação, o c
 
 | Atributos | Tipo   | Descrição      |
 | :-------- | :----- | :------------- |
-| zaapId    | string | id no plug    |
+| zaapId    | string | id no plug     |
 | messageId | string | id no whatsapp |
 
 Exemplo

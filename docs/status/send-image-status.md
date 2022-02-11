@@ -63,7 +63,7 @@ Se você tem duvidas em como enviar uma imagem Base64 acesse o tópico mensagens
 
 | Atributos | Tipo   | Descrição      |
 | :-------- | :----- | :------------- |
-| zaapId    | string | id no Plug    |
+| zaapId    | string | id no Plug     |
 | messageId | string | id no whatsapp |
 
 Exemplo

@@ -57,7 +57,7 @@ Array Messages
 | size      | string   | Numero de mensagens na fila |
 | Message   | string   | Texto da Mensagem           |
 | Phone     | string   | Fone do destinatário        |
-| ZaapId    | string   | ID da mensagem no Plug     |
+| ZaapId    | string   | ID da mensagem no Plug      |
 | Created   | timetamp | Data da mensagem            |
 | MessageId | string   | ID da mensagem              |
 
