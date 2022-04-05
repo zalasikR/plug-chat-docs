@@ -104,6 +104,7 @@ module.exports = {
       'webhooks/on-whatsapp-message-status-changes',
       'webhooks/on-chat-presence',
     ],
+    'Botões Personalizados': ['buttons/api-buttons'],
     Sample: ['sample/exemplos'],
   },
 };
