@@ -19,14 +19,14 @@ module.exports = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: './favicon.png',
+  favicon: '/favicon.png',
   organizationName: 'PLUG CHAT',
   projectName: 'plug-chat-docs',
   themeConfig: {
     navbar: {
       logo: {
         alt: 'Plug Chat Logo',
-        src: 'https://www.plugchat.com.br/imgs/white.png',
+        src: '/plug-white.png',
       },
       items: [],
     },
