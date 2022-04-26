@@ -99,7 +99,6 @@ module.exports = {
     Webhooks: [
       'webhooks/introduction',
       'webhooks/on-message-send',
-      'webhooks/on-message-received',
       'webhooks/on-whatsapp-disconnected',
       'webhooks/on-whatsapp-message-status-changes',
       'webhooks/on-chat-presence',
