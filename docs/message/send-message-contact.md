@@ -10,12 +10,12 @@ title: Enviar contato
 `POST` https://www.plugchat.com.br/api/whatsapp/send-contact
 
 ## Header
+
 #### Toda requisição http feita precisa passar sua header de autorização.
 
-
-| Key            | Value                   |
-| :------------: |   :---------------:     |
-| Authorization: |   1nEFbU3EktLnV7LIIzX   |
+|      Key       |        Value        |
+| :------------: | :-----------------: |
+| Authorization: | 1nEFbU3EktLnV7LIIzX |
 
 ---
 
@@ -82,14 +82,6 @@ Neste caso certifique que esteja enviando o corretamente a especificação do m�
 ### 415
 
 Caso você receba um erro 415, certifique de adicionar na headers da requisição o "Content-Type" do objeto que você está enviando, em sua grande maioria "application/json"
-
----
-
-## Webhook Response
-
-Link para a response do webhook (ao receber)
-
-[Webhook](../webhooks/on-message-received#exemplo-de-retorno-de-contato)
 
 ---
 
