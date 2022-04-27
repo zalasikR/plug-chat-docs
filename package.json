@@ -1,6 +1,6 @@
 {
   "name": "plug-chat-docs",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
