@@ -60,6 +60,8 @@ module.exports = {
       'chats/archive-chat',
       'chats/pin-chat',
       'chats/delete-chat',
+      'chats/get-attendance-by-task',
+      'chats/change-departament',
     ],
     Grupos: [
       'group/introduction',
@@ -102,8 +104,13 @@ module.exports = {
       'webhooks/on-whatsapp-disconnected',
       'webhooks/on-whatsapp-message-status-changes',
       'webhooks/on-chat-presence',
+      'webhooks/update-webhooks',
     ],
     'Botões Personalizados': ['buttons/api-buttons'],
+    Departamentos: [
+      'departament/introduction',
+      'departament/get-all-departaments',
+    ],
     Sample: ['sample/exemplos'],
   },
 };
