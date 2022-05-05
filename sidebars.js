@@ -98,14 +98,7 @@ module.exports = {
       'business/get-product-id',
       'business/delete-product',
     ],
-    Webhooks: [
-      'webhooks/introduction',
-      'webhooks/on-message-send',
-      'webhooks/on-whatsapp-disconnected',
-      'webhooks/on-whatsapp-message-status-changes',
-      'webhooks/on-chat-presence',
-      'webhooks/update-webhooks',
-    ],
+    Webhooks: ['webhooks/introduction', 'webhooks/update-webhooks'],
     'Botões Personalizados': ['buttons/api-buttons'],
     Departamentos: [
       'departament/introduction',
