@@ -26,7 +26,7 @@ module.exports = {
     navbar: {
       logo: {
         alt: 'Plug Chat Logo',
-        src: 'https://raw.githubusercontent.com/fourpixelit/plug-chat-docs/main/plug-white.png',
+        src: 'https://raw.githubusercontent.com/fourpixelit/plug-chat-docs/main/img/plug-white.png',
       },
       items: [],
     },
