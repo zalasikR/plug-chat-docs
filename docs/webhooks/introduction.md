@@ -7,7 +7,7 @@ title: Introdução
 
 Neste tópico falaremos sobre os **RETORNOS** dos webhooks que utilizamos.
 
-As instâncias do Plug fazem requisições com o método **POST** dos eventos realizados por ela para a URL configurada previamente. Para cada requisição há um corpo em JSON específico que será descrito em seguida.
+O Plug chat faz requisições com o método **POST** dos eventos realizados por ele para a URL configurada previamente. Para cada requisição há um corpo em JSON específico que será descrito em seguida.
 
 :::caution Importante
 
@@ -25,25 +25,6 @@ Então se você está se integrando com o Plug e precisa receber informações p
 
 ---
 
-### Nossos webhooks
-
-#### Delivery
-
-Responsavel por avisar você que sua mensagem foi entregue ao Whatsapp, mas isso não significa necessáriamente que seu contato a recebeu, para informações de recebimento e leitura você vai precisar observar o webhook de status.
-
-#### Receive
-
-Este webhook será chamado toda vez que alguem interagir com seu numero no whatsapp.
-
-#### Status
-
-Este método vai lhe avisar de todas mudanças de status que sua mensagem sofrer, se ela for recebida, lida, respondida ou excluida, ou seja uma mesma mensagem pode passar por varios status, e ter o mesmo status mais de uma vez, que é o caso de respondida.
-
-#### Disconnected
-
-Este webhook será chamado sempre que nosso serviço identificar alguma indisponibiidade na comunicação, seja do seu celular com o whatsapp ou mesmo da conexão entre seu celular e o Plug.
-
----
 
 :::tip Dica
 
