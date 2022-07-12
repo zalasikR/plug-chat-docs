@@ -63,6 +63,7 @@ No dia 4 de novembro de 2021 o whatsapp alterou a formato da criação de novos 
 | owner        | string       | Numero do criador do grupo            |
 | subject      | string       | Nome do grupo                         |
 | creation     | timestamp    | Timestamp da data de criação do grupo |
+| invitationLink | string     | link de convite do grupo              |
 | participants | array string | com dados dos participantes           |
 
 Array String (participants)
@@ -111,6 +112,7 @@ Forma antiga -
   "owner": "5511999999999",
   "subject": "Meu grupo no Plug",
   "creation": 1588721491000,
+  "invitationLink": "https://chat.whatsapp.com/KN17mskQqLDLALVA0q5E",
   "participants": [
     {
       "phone": "5511888888888",

@@ -5,7 +5,7 @@ title: Atualizar webhooks
 
 ## Método
 
-#### `POST` update-webhooks
+#### `PUT` update-webhooks
 
 ## Conceituação
 
@@ -23,7 +23,7 @@ O Plug não aceita webhooks que não sejam HTTPS
 
 #### /update-webhooks
 
-`POST` https://www.plugchat.com.br/api/integrations/update-webhooks
+`PUT` https://www.plugchat.com.br/api/integrations/update-webhooks
 
 ## Header
 
