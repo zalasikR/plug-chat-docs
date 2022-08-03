@@ -37,18 +37,9 @@ O Plug não aceita webhooks que não sejam HTTPS
 
 #### Body
 
-##### Ao Finalizar Atendimento
-
 ```json
 {
-  "finishAttendance": "https://seuwebhook.com.br"
-}
-```
-
-##### Ao Iniciar Atendimento
-
-```json
-{
+  "finishAttendance": "https://seuwebhook.com.br",
   "startAttendance": "https://seuwebhook.com.br"
 }
 ```
@@ -77,17 +68,21 @@ O Plug não aceita webhooks que não sejam HTTPS
 ```json
 {
   "attendance": {
+    "attendanceCategory": {
+      "color": "#DDDD",
+      "id": "id da categoria",
+      "name": "nome da categoria"
+    },
     "attendanceNumber": 1492,
     "customer": {
       "name": "nome",
       "phone": "554499999999"
     },
+    "departament": "Nome do departamento",
     "endTime": 1651065481865,
-    "finishBy": "id do operador",
-    "id": "id do atendimento",
-    "operators": {
-      "ID_DO_OPERADOR": true
-    },
+    "finishBy": "Nome do operador",
+    "operatorReport ": "Relato do operador",
+    "ratingObservation": "Observação do cliente",
     "requestTime": 1651065472000,
     "startTime": 1651065471166,
     "status": "FINISH"
@@ -137,9 +132,8 @@ O Plug não aceita webhooks que não sejam HTTPS
       "name": "nome",
       "phone": "554499999999"
     },
-    "operators": {
-      "ID_DO_OPERADOR": true
-    },
+    "departament": "Nome do departamento",
+    "operator": "Nome do operador",
     "momment": 1651065472000,
     "startTime": 1651065471166,
     "status": "PROGRESS"
