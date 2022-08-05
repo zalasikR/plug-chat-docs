@@ -7,7 +7,7 @@ title: Transferir de departamento
 
 #### /change-departament
 
-`POST` https://plugchat.com.br/api/integrations/change-department
+`POST` https://www.plugchat.com.br/api/integrations/change-department
 
 ---
 

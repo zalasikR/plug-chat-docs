@@ -12,6 +12,6 @@
     "cookies": [],
     "postData": {
         "mimeType": "application/json",
-        "text": "{\"groupName\": \"Novo nonme Z-API\", \"groupId\": \"5511999999999\"}"
+        "text": "{\"groupName\": \"Novo nome PlugChat\", \"groupId\": \"5511999999999\"}"
     }
 }

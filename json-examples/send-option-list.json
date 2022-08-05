@@ -12,6 +12,6 @@
     "cookies": [],
     "postData": {
         "mimeType": "application/json",
-        "text": "{\"phone\": \"5511999998888\", \"message\": \"Selecione e melhor opção:\",\"optionList\": { \"title\": \"Opções disponíveis\", \"buttonLabel\": \"Abrir lista de opções\", \"options\": [ { \"id\": \"1\", \"description\": \"Z-API Asas para sua imaginação\", \"title\": \"Z-API\" }, { \"id\": \"2\", \"description\": \"Não funcionam\", \"title\": \"Outros\" } ] }}"
+        "text": "{\"phone\": \"5511999998888\", \"message\": \"Selecione e melhor opção:\",\"optionList\": { \"title\": \"Opções disponíveis\", \"buttonLabel\": \"Abrir lista de opções\", \"options\": [ { \"id\": \"1\", \"description\": \"Descrição dos botões\", \"title\": \"Plug-Chat\" }, { \"id\": \"2\", \"description\": \"Sim\", \"title\": \"Não\" } ] }}"
     }
 }

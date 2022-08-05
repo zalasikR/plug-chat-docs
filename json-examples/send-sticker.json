@@ -12,6 +12,6 @@
     "cookies": [],
     "postData": {
         "mimeType": "application/json",
-        "text": "{\"phone\": \"5511999998888\", \"sticker\": \"https://www.z-api.io/wp-content/themes/z-api/dist/sticker/logo.svg\"}"
+        "text": "{\"phone\": \"5511999998888\", \"sticker\": \"https://www.seusticker/sticker/logo.svg\"}"
     }
 }
