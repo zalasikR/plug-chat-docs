@@ -3,10 +3,12 @@
     "url": "https://www.plugchat.com.br/api/whatsapp/queue/5511999999999",
     "httpVersion": "HTTP/1.1",
     "queryString": [
-     
     ],
-    "headers": [
-
+      "headers": [
+       {
+      "name": "Authorization",
+      "value": "TOKEN"
+    }
     ],
     "cookies": [],
     "postData": {}

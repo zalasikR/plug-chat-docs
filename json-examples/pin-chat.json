@@ -2,6 +2,16 @@
   "method": "POST",
   "url": "https://www.plugchat.com.br/api/whatsapp/modify-chat",
   "httpVersion": "HTTP/1.1",
+  "headers": [
+    {
+      "name": "Content-Type",
+      "value": "application/json"
+    },
+    {
+      "name": "Authorization",
+      "value": "TOKEN"
+    }
+  ],
   "postData": {
     "mimeType": "application/json",
     "text": "{\"phone\": \"5544991515165\", \"action\": \"pin / unpin \"}"

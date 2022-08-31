@@ -23,6 +23,10 @@
         {
             "name": "Content-Type",
             "value": "application/json"
+        },
+        {
+            "name": "Authorization",
+            "value": "TOKEN"
         }
     ],
     "cookies": [],

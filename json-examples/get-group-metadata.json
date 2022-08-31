@@ -2,13 +2,15 @@
     "method": "GET",
     "url": "https://www.plugchat.com.br/api/whatsapp/group-metadata/5511999999999-1623281429",
     "httpVersion": "HTTP/1.1",
-    "queryString": [
-     
-    ],
+    "queryString": [],
     "headers": [
         {
             "name": "Content-Type",
             "value": "application/json"
+        },
+        {
+            "name": "Authorization",
+            "value": "TOKEN"
         }
     ],
     "cookies": [],

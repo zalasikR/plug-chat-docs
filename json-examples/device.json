@@ -3,7 +3,16 @@
     "url": "https://www.plugchat.com.br/api/whatsapp/device",
     "httpVersion": "HTTP/1.1",
     "queryString": [],
-    "headers": [],
+    "headers": [
+        {
+            "name": "Content-Type",
+            "value": "application/json"
+        },
+        {
+            "name": "Authorization",
+            "value": "TOKEN"
+        }
+    ],
     "cookies": [],
     "postData": {}
 }

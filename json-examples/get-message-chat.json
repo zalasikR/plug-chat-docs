@@ -10,12 +10,19 @@
         },
         {
             "name": "lastMessageId",
-            "value": "messageID" ,
+            "value": "messageID",
             "comment": ""
         }
     ],
     "headers": [
-
+        {
+            "name": "Content-Type",
+            "value": "application/json"
+        },
+        {
+            "name": "Authorization",
+            "value": "TOKEN"
+        }
     ],
     "cookies": [],
     "postData": {}

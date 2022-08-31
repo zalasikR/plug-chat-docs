@@ -7,6 +7,10 @@
         {
             "name": "Content-Type",
             "value": "application/json"
+        },
+        {
+            "name": "Authorization",
+            "value": "TOKEN"
         }
     ],
     "cookies": [],
@@ -15,4 +19,3 @@
         "text": "{\"phone\": \"5511999998888\",\"title\": \"Google Brasil\",\"address\": \"Av. Brg. Faria Lima, 3477 - Itaim Bibi, São Paulo - SP, 04538-133\",\"latitude\": \"-23.0696347\",\"longitude\": \"-50.4357913\"}"
     }
 }
-
