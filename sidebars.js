@@ -62,6 +62,7 @@ module.exports = {
       'chats/delete-chat',
       'chats/get-attendance-by-task',
       'chats/change-departament',
+      'chats/create-generic-fields',
     ],
     Grupos: [
       'group/introduction',
