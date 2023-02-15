@@ -63,6 +63,7 @@ module.exports = {
       'chats/get-attendance-by-task',
       'chats/change-departament',
       'chats/create-generic-fields',
+      'chats/start-attendance',
     ],
     Grupos: [
       'group/introduction',
