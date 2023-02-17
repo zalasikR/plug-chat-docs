@@ -63,7 +63,7 @@ module.exports = {
       'chats/get-attendance-by-task',
       'chats/change-departament',
       'chats/create-generic-fields',
-      'chats/start-attendance',
+      // 'chats/start-attendance', // COMENTADO PQ AINDA NAO FOI LANCADA E FALTA API PARA PEGAR OPERADORES
     ],
     Grupos: [
       'group/introduction',
