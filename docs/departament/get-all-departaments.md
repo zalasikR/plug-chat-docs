@@ -7,7 +7,7 @@ title: Pegar todos os departamentos
 
 #### /departaments
 
-`GET` https://app.plugchat.com.br/api/integrations/departments
+`GET` https://www.plugchat.com.br/api/integrations/departments
 
 ## Header
 
@@ -25,28 +25,13 @@ Este método é reponsavel por retornar os departamentos cadastrados na sua cont
 
 ---
 
-## Atributos
-
-### Obrigatórios
-
-| Atributos | Tipo | Descrição |
-| :-------- | :--: | :-------- |
-
-### Opcionais
-
-| Atributos | Tipo | Descrição |
-| :-------- | :--: | :-------- |
-|           |      |           |
-
----
-
 ## Request Params
 
 #### URL exemplo
 
 Método
 
-`GET` https://app.plugchat.com.br/api/integrations/departments
+`GET` https://www.plugchat.com.br/api/integrations/departments
 
 ---
 
