@@ -60,10 +60,42 @@ Nesse método você será capaz de iniciar um atendimento com um operador ou com
 
 ### 200
 
-Exemplo
+Exemplo - Caso seja iniciado o atendimento o retorno será:
 
 ```json
 true
+```
+
+---
+
+Exemplo - Caso o chat já esteja em atendimento o retorno será:
+
+| Atributos | Tipo | Descrição |
+| :-- | :-- | :-- |
+| status | string | Status do atendimento |
+| message | string | Mensagem para descrever a situação do atendimento |
+| attendanceNumber | number | Número do atendimento |
+| operators | Operators[] | Operadores que estão participando do atendimento |
+
+#### Operators
+
+| Atributos | Tipo   | Descrição        |
+| :-------- | :----- | :--------------- |
+| id        | string | Id do operador   |
+| name      | string | Nome do operador |
+
+```json
+{
+  "status": "progress",
+  "message": "chat is already in service",
+  "attendanceNumber": 9999,
+  "operators": [
+    {
+      "id": "OPERADOR-ID-1",
+      "name": "Fulano de Tal"
+    }
+  ]
+}
 ```
 
 ### 401
