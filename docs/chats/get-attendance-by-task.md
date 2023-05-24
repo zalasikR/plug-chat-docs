@@ -11,11 +11,12 @@ title: Pegar atendimento pela task
 
 ## Header
 
-#### Toda requisição http feita precisa passar sua header de autorização.
+#### Para buscar o atendimento através da task, o Ticket precisa ser passado no Header.
 
 |      Key       |        Value        |
 | :------------: | :-----------------: |
 | Authorization: | 1nEFbU3EktLnV7LIIzX |
+| Ticket:        |        0000         |
 
 ---
 
@@ -29,9 +30,9 @@ Este método é reponsavel por retornar o atendimento pelo número da task
 
 ### Obrigatórios
 
-| Atributos |  Tipo  | Descrição                                          |
-| :-------- | :----: | :------------------------------------------------- |
-| ticket:   | number | número do ticket gerado ao finalizar o atendimento |
+| Atributos | Tipo | Descrição |
+| :-------- | :--: | :-------- |
+|           |      |           |
 
 ### Opcionais
 
