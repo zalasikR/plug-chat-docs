@@ -37,7 +37,7 @@ Nesse método você será capaz de cadastrar e atualizar um produto no seu catá
 ```json
 {
   "currency": "BRL",
-  "description": "Uma descricao do produto",
+  "description": "Uma descrição do produto",
   "images": ["https://avatars.githubusercontent.com/u/60630101?s=200&v=4"],
   "isHidden": false,
   "name": "Meu primeiro produto",
@@ -67,7 +67,7 @@ Exemplo
 
 ### 405
 
-Neste caso certifique que esteja enviando o corretamente a especificação do método, ou seja verifique se você enviou o POST ou GET conforme especificado no inicio deste tópico.
+Neste caso certifique que esteja enviando o corretamente a especificação do método, ou seja verifique se você enviou o POST ou GET conforme especificado no início deste tópico.
 
 ### 415
 

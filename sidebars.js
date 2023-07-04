@@ -66,6 +66,10 @@ module.exports = {
       'chats/start-attendance',
       'chats/finish-attendance'
     ],
+    Operadores: [
+      'operators/introduction',
+      'operators/get-all'
+    ],
     Grupos: [
       'group/introduction',
       'group/create-group',

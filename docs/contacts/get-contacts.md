@@ -10,18 +10,18 @@ title: Pegar contatos
 `GET` https://www.plugchat.com.br/api/whatsapp/contacts
 
 ## Header
+
 #### Toda requisição http feita precisa passar sua header de autorização.
 
-
-| Key            | Value                   |
-| :------------: |   :---------------:     |
-| Authorization: |   1nEFbU3EktLnV7LIIzX   |
+|      Key       |        Value        |
+| :------------: | :-----------------: |
+| Authorization: | 1nEFbU3EktLnV7LIIzX |
 
 ---
 
 ## Conceituação
 
-Este método é reponsavel por retornar todos os contatos do Whatsapp. Lembre-se do que foi dito na introdução sobre numero de contatos, caso tenho pulado esta parte, sugiro que você volte um passo e leia a nossa introdução sobre contatos.
+Este método é reponsável por retornar todos os contatos do Whatsapp. Lembre-se do que foi dito na introdução sobre número de contatos, caso tenho pulado esta parte, sugiro que você volte um passo e leia a nossa introdução sobre contatos.
 
 ---
 
@@ -31,8 +31,8 @@ Este método é reponsavel por retornar todos os contatos do Whatsapp. Lembre-se
 
 | Atributos | Tipo | Descrição |
 | :-- | :-: | :-- |
-| page | integer | Utilizado para paginação você de informar aqui a pagina de contatos que quer buscar |
-| pageSize | integer | Especifica o tamanho do retorno de contatos por pagina |
+| page | integer | Utilizado para paginação você deve informar aqui a página de contatos que quer buscar |
+| pageSize | integer | Especifica o tamanho do retorno de contatos por página |
 
 ### Opcionais
 
@@ -80,7 +80,7 @@ Exemplo
 
 ### 405
 
-Neste caso certifique que esteja enviando o corretamente a especificação do método, ou seja verifique se você enviou o POST ou GET conforme especificado no inicio deste tópico.
+Neste caso certifique que esteja enviando o corretamente a especificação do método, ou seja verifique se você enviou o POST ou GET conforme especificado no início deste tópico.
 
 ### 415
 

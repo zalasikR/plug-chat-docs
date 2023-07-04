@@ -9,4 +9,4 @@ Como já dito anteriomente para o Whatsapp tudo é um chat e no caso da lista de
 
 Você pode utilizar todos os métodos da sessão mensagens para enviar texto e arquivos para sua lista de transmissão, passando o ID/Fone da lista de transmissão.
 
-Diferente dos grupos todas interações e repostas das mensagens enviadas por uma lista de transmissão geram interações individuais, ou seja, caso o destinatário se manifeste você poderá interagir com o mesmo individualmente.
+Diferente dos grupos todas as interações e repostas das mensagens enviadas por uma lista de transmissão geram interações individuais, ou seja, caso o destinatário se manifeste você poderá interagir com o mesmo individualmente.

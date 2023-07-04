@@ -1,0 +1,17 @@
+{
+    "method": "GET",
+    "url": "https://www.plugchat.com.br/api/operator/get-all",
+    "httpVersion": "HTTP/1.1",
+    "headers": [
+        {
+            "name": "Content-Type",
+            "value": "application/json"
+        },
+        {
+            "name": "Authorization",
+            "value": "TOKEN"
+        }
+    ],
+    "cookies": [],
+    "postData": {}
+}
