@@ -66,6 +66,7 @@ Método
 | active       |   boolean    | Se o operador está ativo ou não             |
 | id           |    string    | Id do operador                              |
 | login        |    string    | Login do operador                           |
+| exactsales   |  Exactsales  | Informações sobre exactsales                |
 
 Objeto Exactsales
 
