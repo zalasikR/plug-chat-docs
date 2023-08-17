@@ -10,18 +10,18 @@ title: Pegar metadata do Chat
 `GET` https://www.plugchat.com.br/api/whatsapp/chats/{phone}
 
 ## Header
+
 #### Toda requisição http feita precisa passar sua header de autorização.
 
-
-| Key            | Value                   |
-| :------------: |   :---------------:     |
-| Authorization: |   1nEFbU3EktLnV7LIIzX   |
+|      Key       |        Value        |
+| :------------: | :-----------------: |
+| Authorization: | 1nEFbU3EktLnV7LIIzX |
 
 ---
 
 ## Conceituação
 
-Este método é reponsavel por retornar as informações do metadata de um chat.
+Este método é reponsável por retornar as informações do metadata de um chat.
 
 ---
 
@@ -58,11 +58,11 @@ Método
 | Atributos | Tipo | Descrição |
 | :-- | :-- | :-- |
 | phone | string | Phone do contato |
-| unread | string | indica o numero de mensagens não lidas em um chat |
-| lastMessageTime | string | Timestamp com a data e hora da ultima ingeração com o chat |
-| isMuted | string | 0 ou 1 indica se você silênciou ou não este chat |
+| unread | string | indica o número de mensagens não lidas em um chat |
+| lastMessageTime | string | Timestamp com a data e hora da última interação com o chat |
+| isMuted | string | 0 ou 1 indica se você silenciou ou não este chat |
 | isMarkedSpam | boolean | true ou false indica se você marcou este chat como spam |
-| profileThumbnail | string | URL da foto do chat **o Whatsapp apaga após 48h** |
+| profileThumbnail | string | URL da foto do chat **o Whatsapp apaga após 48hs** |
 | messagesUnread | integer | **descontinuado** |
 
 Exemplo
@@ -81,7 +81,7 @@ Exemplo
 
 ### 405
 
-Neste caso certifique que esteja enviando o corretamente a especificação do método, ou seja verifique se você enviou o POST ou GET conforme especificado no inicio deste tópico.
+Neste caso certifique que esteja enviando o corretamente a especificação do método, ou seja verifique se você enviou o POST ou GET conforme especificado no início deste tópico.
 
 ### 415
 

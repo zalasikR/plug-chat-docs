@@ -21,11 +21,11 @@ title: Atualizar nome do grupo
 
 ## Conceituação
 
-Este método é reponsavel alterar o nome de um grupo já existente.
+Este método é reponsável por alterar o nome de um grupo já existente.
 
 :::caution Atenção
 
-No dia 4 de novembro de 2021 o whatsapp alterou a formato da criação de novos grupos, antes: "phone": "5511999999999-1623281429" agora: "phone": "120363019502650977-group"
+No dia 4 de novembro de 2021 o whatsapp alterou o formato da criação de novos grupos, antes: "phone": "5511999999999-1623281429" agora: "phone": "120363019502650977-group"
 
 :::
 
@@ -93,7 +93,7 @@ Forma nova -
 
 ### 405
 
-Neste caso certifique que esteja enviando o corretamente a especificação do método, ou seja verifique se você enviou o POST ou GET conforme especificado no inicio deste tópico.
+Neste caso certifique que esteja enviando o corretamente a especificação do método, ou seja verifique se você enviou o POST ou GET conforme especificado no início deste tópico.
 
 ### 415
 

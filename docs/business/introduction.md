@@ -8,8 +8,8 @@ title: Introdução
 Agora temos novas APIs para o **Whatsapp Business**:
 
 - Criar ou editar um produto
-- Pegar meu catalogo de produtos
-- Pegar catalogo de produtos de outro número business
+- Pegar meu catálogo de produtos
+- Pegar catálogo de produtos de outro número business
 - Pegar dados de um produto por ID
 - Excluir um produto por ID
 

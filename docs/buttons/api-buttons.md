@@ -9,7 +9,7 @@ Os botões tem 3 valores, o nome do botão, a url da sua api e o método que ser
 
 :::caution
 
-É obrigatório receber corretamente todos os atributos e retornar exatamente oq esperamos, do contrário a chamada da sua api não irá acontecer
+É obrigatório receber corretamente todos os atributos e retornar exatamente o que esperamos, do contrário a chamada da sua api não irá acontecer
 
 :::
 
@@ -43,7 +43,7 @@ Exemplo
   "genericFields": [
     {
       "name": "nome do campo",
-      "value": "conteudo do campo"
+      "value": "conteúdo do campo"
     }
   ],
   "email": "E-mail",
@@ -70,7 +70,7 @@ Exemplo
 
 ## Response
 
-3 tipos de resposta são esperados da sua api, 1º - message, em message estaremos esperando um mensagem de texto, que será enviada no chat, 2º - modal, em modal estaremos esperando alguma informação que será exibida na tela para o usuário que clicou no botão, 3º - null, aqui apenas daremos um retorno se a chamada deu certo ou não.
+3 tipos de resposta são esperados da sua api, 1º - message, em message estaremos esperando uma mensagem de texto, que será enviada no chat, 2º - modal, em modal estaremos esperando alguma informação que será exibida na tela para o usuário que clicou no botão, 3º - null, aqui apenas daremos um retorno se a chamada deu certo ou não.
 
 :::important
 

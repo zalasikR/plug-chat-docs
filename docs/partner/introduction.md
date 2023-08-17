@@ -9,7 +9,7 @@ title: Introdução
 
 Se você esta neste tópico ja quebrou algumas castanhas com a gente não é mesmo ?
 
-Estamos muito felizes em você considerar ser um parceiro integrador nosso, queremos muito ser benção em seus negócios e esperamos que você prospere muito, e obvio esperamos poder de ajudar nesta empreitada, por isso agora que você já atingiu 25 licenças já nos conhecemos bem e nossa parceria fica ainda mais forte estaremos aqui prontos para lhe ajudar e crecermos juntos, por isso conte com a gente !
+Estamos muito felizes em você considerar ser um parceiro integrador nosso, queremos muito ser benção em seus negócios e esperamos que você prospere muito, e obvio esperamos poder lhe ajudar nesta empreitada, por isso agora que você já atingiu 25 licenças já nos conhecemos bem e nossa parceria fica ainda mais forte estaremos aqui prontos para lhe ajudar e crecermos juntos, por isso conte com a gente !
 
 ### Modelo de Integrador
 
@@ -61,12 +61,12 @@ Durante a adesão do plano a empresa integradora pode optar pela migração a to
 
 :::tip Como cobrar de seu cliente
 
-Recomendamos a nossos clientes a prática do modelo pré-pago em suas soluções pois não trabalhamos com pro rata.
+Recomendamos a nossos clientes a prática do modelo pré-pago em suas soluções pois não trabalhamos com pro data.
 
 :::
 
 :::caution Atenção
 
-Após aderir ao plano de parceria você deverá criar instâncias unica e exclusivamente via API, as instâncias criadas no painel admin não serão ativadas.
+Após aderir ao plano de parceria você deverá criar instâncias únicas e exclusivamente via API, as instâncias criadas no painel admin não serão ativadas.
 
 :::

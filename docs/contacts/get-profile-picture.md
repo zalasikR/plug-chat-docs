@@ -10,12 +10,12 @@ title: Pegar imagem do contato
 `GET` https://www.plugchat.com.br/api/whatsapp/profile-picture
 
 ## Header
+
 #### Toda requisição http feita precisa passar sua header de autorização.
 
-
-| Key            | Value                   |
-| :------------: |   :---------------:     |
-| Authorization: |   1nEFbU3EktLnV7LIIzX   |
+|      Key       |        Value        |
+| :------------: | :-----------------: |
+| Authorization: | 1nEFbU3EktLnV7LIIzX |
 
 ---
 
@@ -25,7 +25,7 @@ Este método é reponsavel por retornar a url com a imagem do contato atualizada
 
 Como já dito no tópico anterior **Lembre-se**
 
-Se você pretente armazenar a imagem do seu contato observe que sempre retornamos no get-contacts o atribucom imgUrl com ela para você, porém é importante lembrar que esta fica disponivel por apenas **48 horas**, após este periodo o link da imagem é excluido pelo próprio Whatsapp. Sugerimos que caso precise atualizar a imagem do seu contato você utilize o proximo método desta documentação, o **get-profile-picture**.
+Se você pretente armazenar a imagem do seu contato observe que sempre retornamos no get-contacts o atributo imgUrl com ela para você, porém é importante lembrar que esta fica disponível por apenas **48 horas**, após este periodo o link da imagem é excluido pelo próprio Whatsapp. Sugerimos que caso precise atualizar a imagem do seu contato você utilize o proximo método desta documentação, o **get-profile-picture**.
 
 ---
 
@@ -75,7 +75,7 @@ Exemplo
 
 ### 405
 
-Neste caso certifique que esteja enviando o corretamente a especificação do método, ou seja verifique se você enviou o POST ou GET conforme especificado no inicio deste tópico.
+Neste caso certifique que esteja enviando o corretamente a especificação do método, ou seja verifique se você enviou o POST ou GET conforme especificado no início deste tópico.
 
 ### 415
 

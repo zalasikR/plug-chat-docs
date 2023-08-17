@@ -23,7 +23,7 @@ Este método é reponsável por adicionar novos participantes ao grupo.
 
 :::caution Atenção
 
-No dia 4 de novembro de 2021 o whatsapp alterou a formato da criação de novos grupos, antes: "phone": "5511999999999-1623281429" agora: "phone": "120363019502650977-group"
+No dia 4 de novembro de 2021 o whatsapp alterou o formato da criação de novos grupos, antes: "phone": "5511999999999-1623281429" agora: "phone": "120363019502650977-group"
 
 :::
 
@@ -36,7 +36,7 @@ No dia 4 de novembro de 2021 o whatsapp alterou a formato da criação de novos 
 | Atributos | Tipo | Descrição |
 | :-- | :-: | :-- |
 | groupId | string | ID/Fone do grupo |
-| phones | array string | Array com os numero(s) do(s) participante(s) a serem adicionados |
+| phones | array string | Array com os número(s) do(s) participante(s) a serem adicionados |
 
 ### Opcionais
 
@@ -91,7 +91,7 @@ Forma nova -
 
 ### 405
 
-Neste caso certifique que esteja enviando o corretamente a especificação do método, ou seja verifique se você enviou o POST ou GET conforme especificado no inicio deste tópico.
+Neste caso certifique que esteja enviando o corretamente a especificação do método, ou seja verifique se você enviou o POST ou GET conforme especificado no início deste tópico.
 
 ### 415
 

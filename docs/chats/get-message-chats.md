@@ -10,18 +10,18 @@ title: Pegar mensagens do chat
 `GET` https://www.plugchat.com.br/api/whatsapp/chat-messages/{phone}
 
 ## Header
+
 #### Toda requisição http feita precisa passar sua header de autorização.
 
-
-| Key            | Value                   |
-| :------------: |   :---------------:     |
-| Authorization: |   1nEFbU3EktLnV7LIIzX   |
+|      Key       |        Value        |
+| :------------: | :-----------------: |
+| Authorization: | 1nEFbU3EktLnV7LIIzX |
 
 ---
 
 ## Conceituação
 
-Este método é reponsavel por retornar todas conversas de um chat.
+Este método é reponsável por retornar todas as conversas de um chat.
 
 ---
 
@@ -33,7 +33,7 @@ Este método é reponsavel por retornar todas conversas de um chat.
 | :-- | :-: | :-- |
 | phone | string | Telefone do destinatário no formato DDI DDD NUMERO Ex: 551199999999. **IMPORTANTE** Envie somente números, sem formatação ou máscara |
 | amount | integer | Quantidade de mensagens que deseja buscar, é recomendado que você busque de 10 em 10 mensagens para que sua aplicação não fique muito lenta. |
-| lastMessageId | string | messageId da ultima mensagem que você buscou |
+| lastMessageId | string | messageId da última mensagem que você buscou |
 
 ### Opcionais
 
@@ -50,7 +50,6 @@ Este método é reponsavel por retornar todas conversas de um chat.
 Método
 
 `GET` https://www.plugchat.com.br/api/whatsapp/chat-messages/{phone}
-
 
 ---
 
@@ -196,7 +195,7 @@ Segue Json conforme sequência abaixo:
 
 ### 405
 
-Neste caso certifique que esteja enviando o corretamente a especificação do método, ou seja verifique se você enviou o POST ou GET conforme especificado no inicio deste tópico.
+Neste caso certifique que esteja enviando o corretamente a especificação do método, ou seja verifique se você enviou o POST ou GET conforme especificado no início deste tópico.
 
 ### 415
 

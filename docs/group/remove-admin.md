@@ -19,7 +19,7 @@ title: Remover admin do grupo
 
 ## Conceituação
 
-Este método é reponsavel remover um ou mais admistradores de um grupo.
+Este método é reponsável por remover um ou mais admistradores de um grupo.
 
 :::caution Atenção
 
@@ -36,7 +36,7 @@ No dia 4 de novembro de 2021 o whatsapp alterou a formato da criação de novos 
 | Atributos | Tipo | Descrição |
 | :-- | :-: | :-- |
 | groupId | string | id/fone do grupo |
-| phones | array string | Array com os numero(s) a ser(em) removido(s) da administração do grupo |
+| phones | array string | Array com os número(s) a ser(em) removido(s) da administração do grupo |
 
 ### Opcionais
 
@@ -93,7 +93,7 @@ Forma nova -
 
 ### 405
 
-Neste caso certifique que esteja enviando o corretamente a especificação do método, ou seja verifique se você enviou o POST ou GET conforme especificado no inicio deste tópico.
+Neste caso certifique que esteja enviando o corretamente a especificação do método, ou seja verifique se você enviou o POST ou GET conforme especificado no início deste tópico.
 
 ### 415
 

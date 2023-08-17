@@ -10,12 +10,12 @@ title: Deletar Chats
 `POST` https://www.plugchat.com.br/api/whatsapp/modify-chat
 
 ## Header
+
 #### Toda requisição http feita precisa passar sua header de autorização.
 
-
-| Key            | Value                   |
-| :------------: |   :---------------:     |
-| Authorization: |   1nEFbU3EktLnV7LIIzX   |
+|      Key       |        Value        |
+| :------------: | :-----------------: |
+| Authorization: | 1nEFbU3EktLnV7LIIzX |
 
 ---
 
@@ -55,7 +55,7 @@ Exemplo
 
 | Atributos | Tipo    | Descrição                       |
 | :-------- | :------ | :------------------------------ |
-| value     | boolean | Atributo de confirmaçaõ da ação |
+| value     | boolean | Atributo de confirmação da ação |
 
 Exemplo
 
@@ -67,7 +67,7 @@ Exemplo
 
 ### 405
 
-Neste caso certifique que esteja enviando o corretamente a especificação do método, ou seja verifique se você enviou o POST ou GET conforme especificado no inicio deste tópico.
+Neste caso certifique que esteja enviando o corretamente a especificação do método, ou seja verifique se você enviou o POST ou GET conforme especificado no início deste tópico.
 
 ### 415
 
