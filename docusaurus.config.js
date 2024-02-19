@@ -19,14 +19,15 @@ module.exports = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'https://raw.githubusercontent.com/fourpixelit/plug-chat-docs/main/favicon.png',
+  favicon:
+    'https://raw.githubusercontent.com/fourpixelit/plug-chat-docs/main/favicon_plugchat.png',
   organizationName: 'PLUG CHAT',
   projectName: 'plug-chat-docs',
   themeConfig: {
     navbar: {
       logo: {
         alt: 'Plug Chat Logo',
-        src: 'https://raw.githubusercontent.com/fourpixelit/plug-chat-docs/main/img/plug-white.png',
+        src: 'https://raw.githubusercontent.com/fourpixelit/plug-chat-docs/main/img/plug_white_2.png',
       },
       items: [],
     },
