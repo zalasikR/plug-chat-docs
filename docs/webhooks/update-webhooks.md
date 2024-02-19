@@ -65,6 +65,14 @@ O Plug não aceita webhooks que não sejam HTTPS
 
 #### Ao Finalizar Atendimento
 
+**Nova configuração** <br/> No painel do dashboard, em `configurações > categorias de atendimento` incluímos a opção de cadastrar uma lista de categorias e vincular itens para cada uma. Com essa mudança o webhook terá um novo retorno, mas apenas nessa parte.
+
+O que mudou?<br/> Nada, `attendanceCategory` continuará funcionando como antes **(exemplo-1)** e `attendanceCategories` é uma nova implementação que retorna uma lista **(exemplo-2)** com base no que foi categorizado ao finalizar o atendimento.
+
+Importante notar que ambos retornos funcionarão, então com base no que foi configurado nas categorias será então retornado, sendo totalmente dinâmico.
+
+**Exemplo-1**
+
 ```json
 {
   "attendance": {
@@ -73,6 +81,78 @@ O Plug não aceita webhooks que não sejam HTTPS
       "id": "id da categoria",
       "name": "nome da categoria"
     },
+    "attendanceNumber": 1492,
+    "customer": {
+      "name": "nome",
+      "phone": "554499999999"
+    },
+    "departament": "Nome do departamento",
+    "endTime": 1651065481865,
+    "finishBy": "Nome do operador",
+    "operatorReport ": "Relato do operador",
+    "ratingObservation": "Observação do cliente",
+    "requestTime": 1651065472000,
+    "startTime": 1651065471166,
+    "status": "FINISH"
+  },
+  "chat": {
+    "ID_DA_MENSAGEM": {
+      "broadcast": false,
+      "chatName": "nome",
+      "forwarded": false,
+      "fromMe": false,
+      "instanceId": "instance id",
+      "isGroup": false,
+      "messageId": "ID_DA_MENSAGEM",
+      "momment": 1651065478000,
+      "phone": "554499999999",
+      "photo": "URL_DA_FOTO",
+      "senderName": "nome",
+      "status": "RECEIVED",
+      "text": {
+        "message": "mensagem enviada"
+      },
+      "type": "ReceivedCallback",
+      "waitingMessage": false
+    },
+    "ID_DA_MENSAGEM": {
+      "fromMe": true,
+      "isAutomaticMessage": true,
+      "messageId": "ID_DA_MENSAGEM",
+      "momment": 1651065479380,
+      "phone": "554499999999",
+      "status": "READ",
+      "text": {
+        "message": "só um momento"
+      }
+    }
+  }
+}
+```
+
+<br/>
+
+**Exemplo-2**
+
+```json
+{
+  "attendance": {
+    "attendanceCategories": [
+      {
+        "categoryId": "id_categoria",
+        "categoryName": "Padrão",
+        "color": "cor_categoria",
+        "itemId": "id_item_vinculado_na_categoria",
+        "itemName": "Nome do item"
+      },
+      {
+        "categoryId": "id_categoria",
+        "categoryName": "nome_categoria",
+        "color": "cor_categoria",
+        "itemId": "id_item_vinculado_na_categoria",
+        "itemName": "Nome do item"
+      }
+    ],
     "attendanceNumber": 1492,
     "customer": {
       "name": "nome",
