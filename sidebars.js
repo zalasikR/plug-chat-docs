@@ -55,7 +55,7 @@ module.exports = {
     Chats: [
       'chats/introduction',
       'chats/get-chats',
-      'chats/get-message-chats',
+      // 'chats/get-message-chats',
       'chats/get-metadata-chat',
       'chats/archive-chat',
       'chats/pin-chat',
@@ -64,12 +64,9 @@ module.exports = {
       'chats/change-departament',
       'chats/create-generic-fields',
       'chats/start-attendance',
-      'chats/finish-attendance'
+      'chats/finish-attendance',
     ],
-    Operadores: [
-      'operators/introduction',
-      'operators/get-all'
-    ],
+    Operadores: ['operators/introduction', 'operators/get-all'],
     Grupos: [
       'group/introduction',
       'group/create-group',
