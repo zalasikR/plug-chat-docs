@@ -40,7 +40,12 @@ O Plug não aceita webhooks que não sejam HTTPS
 ```json
 {
   "finishAttendance": "https://seuwebhook.com.br",
-  "startAttendance": "https://seuwebhook.com.br"
+  "startAttendance": "https://seuwebhook.com.br",
+  "receiveMessage": "https://seuwebhook.com.br",
+  "sendingMessage": "https://seuwebhook.com.br",
+  "messageDeliveryError": "https://seuwebhook.com.br",
+  "messageStatus": "https://seuwebhook.com.br",
+  "whenDisconnecting": "https://seuwebhook.com.br"
 }
 ```
 
@@ -54,6 +59,11 @@ O Plug não aceita webhooks que não sejam HTTPS
 | :-- | :-: | :-- |
 | finishAttendance | string | URL do webhook a ser chamado quando um atendimento for finalizado. |
 | startAttendance | string | URL do webhook a ser chamado quando um atendimento for Iniciado. |
+| receiveMessage | string | URL do webhook a ser chamado quando receber uma mensagem. |
+| sendingMessage | string | URL do webhook a ser chamado quando enviar uma mensagem. |
+| messageDeliveryError | string | URL do webhook a ser chamado quando houver um erro na entrega da mensagem. |
+| messageStatus | string | URL do webhook a ser chamado quando o status da mensagem for atualizado. |
+| whenDisconnecting | string | URL do webhook a ser chamado ao se desconectar. |
 
 ---
 
