@@ -55,6 +55,7 @@ module.exports = {
     Chats: [
       'chats/introduction',
       'chats/get-chats',
+      'chats/get-pending-chats',
       // 'chats/get-message-chats',
       'chats/get-metadata-chat',
       'chats/archive-chat',
