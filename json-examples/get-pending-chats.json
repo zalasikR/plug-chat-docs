@@ -1,0 +1,29 @@
+{
+    "method": "GET",
+    "url": "https://www.plugchat.com.br/api/chat/get-pending-chats",
+    "httpVersion": "HTTP/1.1",
+    "queryString": [
+        {
+            "name": "page",
+            "value": "1",
+            "comment": ""
+        },
+        {
+            "name": "pageSize",
+            "value": "2",
+            "comment": ""
+        }
+    ],
+    "headers": [
+        {
+            "name": "Content-Type",
+            "value": "application/json"
+        },
+        {
+            "name": "Authorization",
+            "value": "TOKEN"
+        }
+    ],
+    "cookies": [],
+    "postData": {}
+}
