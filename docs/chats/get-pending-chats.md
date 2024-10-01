@@ -97,4 +97,4 @@ Se der erro 415, verifica se adicionou o "Content-Type" correto no header da req
 
 ## Code
 
-<iframe src="//api.apiembed.com/?source=https://raw.githubusercontent.com/fourpixelit/plug-chat-docs/main/json-examples/get-pending-chats.json&targets=all" frameborder="0" scrolling="no" width="100%" height="500px" seamless></iframe>
+<iframe src="//api.apiembed.com/?source=https://raw.githubusercontent.com/fourpixelit/plug-chat-docs/develop/json-examples/get-pending-chats.json&targets=all" frameborder="0" scrolling="no" width="100%" height="500px" seamless></iframe>
