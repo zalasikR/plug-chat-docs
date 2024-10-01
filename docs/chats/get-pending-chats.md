@@ -21,7 +21,7 @@ title: Pegar chats pendentes
 
 ## Conceituação
 
-Este método é reponsável por retornar todos os chats pendentes.
+Este método é responsável por retornar todos os chats pendentes.
 
 ---
 
@@ -91,7 +91,7 @@ Neste caso certifique que esteja enviando o corretamente a especificação do m�
 
 ### 415
 
-Se der erro 415, verifica se adicionou o "Content-Type" correto no header da requisição, como "application/json"
+Se der erro 415, verifique se adicionou o "Content-Type" correto no header da requisição, como "application/json"
 
 ---
 
