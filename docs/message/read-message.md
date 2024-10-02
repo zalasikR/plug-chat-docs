@@ -11,7 +11,7 @@ title: Ler mensagens
 
 ## Header
 
-#### Toda requisição http feita precisa passar sua header de autorização.
+#### Toda requisição http precisa passar seu token de autorização no header
 
 |      Key       |        Value        |
 | :------------: | :-----------------: |
@@ -31,8 +31,8 @@ Método utilizado para marcar uma mensagem em um chat como lida.
 
 | Atributos | Tipo | Descrição |
 | :-- | :-: | :-- |
-| phone | string | Telefone (ou ID do grupo para casos de envio para grupos) do destinatário/remetente no formato DDI DDD NUMERO Ex: 551199999999. **IMPORTANTE** Envie somente números, sem formatação ou máscara |
-| messageId | string | id original da mensagem, no caso de mensagem enviada por você é o código que vem no seu reponse, caso seja uma mensagem enviada por um contato você vai receber este messageId pelo seu webhook de receive |
+| phone | string | Telefone (ou ID do grupo para casos de envio para grupos) do destinatário/remetente no formato DDI DDD NÚMERO. Ex: 551199999999. IMPORTANTE: Envie somente números, sem formatação ou máscara. |
+| messageId | string | ID original da mensagem. No caso de mensagem enviada por você, é o código que vem no seu response; caso seja uma mensagem enviada por um contato, você receberá este messageId pelo seu webhook de received. |
 
 ### Opcionais
 
@@ -71,11 +71,10 @@ Exemplo
 
 ### 405
 
-Neste caso certifique que esteja enviando o corretamente a especificação do método, ou seja verifique se você enviou o POST ou GET conforme especificado no inicio deste tópico.
+Neste caso, certifique-se de que está enviando corretamente a especificação do método. Verifique se você enviou o POST ou GET conforme especificado no início deste tópico.
 
-### 415
-
-Caso você receba um erro 415, certifique de adicionar na headers da requisição o "Content-Type" do objeto que você está enviando, em sua grande maioria "application/json"
+### 415: 
+Caso você receba um erro 415, adicione na header da requisição o "Content-Type" do objeto que você está enviando, em sua grande maioria, "application/json".
 
 ---
 
