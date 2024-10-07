@@ -21,7 +21,7 @@ title: Pegar chats
 
 ## Conceituação
 
-Este método é reponsável por retornar todos os chats.
+Este método é responsável por retornar todos os chats.
 
 ---
 
@@ -33,12 +33,6 @@ Este método é reponsável por retornar todos os chats.
 | :-- | :-: | :-- |
 | page | integer | Utilizado para paginação você deve informar aqui a página de chats que quer buscar |
 | pageSize | integer | Especifica o tamanho do retorno de chats por página |
-
-### Opcionais
-
-| Atributos | Tipo | Descrição |
-| :-------- | :--: | :-------- |
-|           |      |           |
 
 ---
 

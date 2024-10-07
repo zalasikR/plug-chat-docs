@@ -21,7 +21,7 @@ title: Pegar chats pendentes
 
 ## Conceituação
 
-Este método é reponsável por retornar todos os chats pendentes.
+Este método é responsável por retornar todos os chats pendentes.
 
 ---
 
@@ -50,15 +50,16 @@ Método
 
 ### 200
 
-| Atributos | Tipo | Descrição |
-| :-- | :-- | :-- |
-| name | string | **Nome ** atribuído ao chat, lembrando que se for um grupo ou lista de transmissão deve retornar os respectivos IDs |
-| phone | string | Phone do contato |
-| unread | string | indica o número de mensagens não lidas em um chat |
-| lastMessageTime | string | Timestamp com a data e hora da última interação com o chat |
-| isMuted | string | 0 ou 1 indica se você silenciou ou não este chat |
-| isMarkedSpam | boolean | true ou false indica se você marcou este chat como spam |
-| profileThumbnail | string | URL da foto do chat **o Whatsapp apaga após 48hs** |
+| Atributos | Tipo | Descrição                                                                                                                            |
+| :-- | :-- |:-------------------------------------------------------------------------------------------------------------------------------------|
+| name | string | **Nome** atribuído ao chat. Para grupos ou listas de transmissão, retornará os respectivos IDs                                       |
+| phone | string | Número de telefone do contato                                                                                                        |
+| profileThumbnail | string | URL da imagem de miniatura do perfil associada ao contato ou grupo                                                                   |
+| lastMessageTime | string | Data e hora da última interação com o chat, no formato de timestamp                                                                  |
+| unreadMessagesCount | string | Quantidade de mensagens não lidas no chat.                                                                                           |                                                                                  |
+| isMarkedAsUnread | string | Indica se o chat está marcado como não lido (true ou false)                                                                          |                                                                        |                                                                                  |
+| isMuted | boolean | 	Indica se o chat está silenciado (true ou false)                                                                                    |                                                                          |
+
 
 Exemplo
 
@@ -67,22 +68,23 @@ Exemplo
   {
     "name": "Plug-suporte",
     "phone": "5511999999999",
-    "unread": "0",
+    "profileThumbnail": null,
     "lastMessageTime": "1622991687",
-    "isMuted": "0",
-    "isMarkedSpam": "false",
-    "profileThumbnail": null
+    "unreadMessagesCount": 0,
+    "isMarkedAsUnread": false,
+    "isMuted": false
   },
   {
     "name": "Plug-Team",
     "phone": "5511999999999",
-    "unread": "0",
+    "profileThumbnail": "https://pps.whatsapp.net/v/t61.24694-24/170931400_212202650511993_3423338295209291992_n.jpg?ccb=11-4&oh=4b96b3bf7114122667f80d021b194f2c&oe=60C179E2",
     "lastMessageTime": "1622990503",
-    "isMuted": "0",
-    "isMarkedSpam": "false",
-    "profileThumbnail": "https://pps.whatsapp.net/v/t61.24694-24/170931400_212202650511993_3423338295209291992_n.jpg?ccb=11-4&oh=4b96b3bf7114122667f80d021b194f2c&oe=60C179E2"
+    "unreadMessagesCount": 4,
+    "isMarkedAsUnread": false,
+    "isMuted": false
   }
 ]
+
 ```
 
 ### 405
@@ -91,10 +93,10 @@ Neste caso certifique que esteja enviando o corretamente a especificação do m�
 
 ### 415
 
-Se der erro 415, verifica se adicionou o "Content-Type" correto no header da requisição, como "application/json"
+Se der erro 415, verifique se adicionou o "Content-Type" correto no header da requisição, como "application/json"
 
 ---
 
 ## Code
 
-<iframe src="//api.apiembed.com/?source=https://raw.githubusercontent.com/fourpixelit/plug-chat-docs/main/json-examples/get-pending-chats.json&targets=all" frameborder="0" scrolling="no" width="100%" height="500px" seamless></iframe>
+<iframe src="//api.apiembed.com/?source=https://raw.githubusercontent.com/fourpixelit/plug-chat-docs/develop/json-examples/get-pending-chats.json&targets=all" frameborder="0" scrolling="no" width="100%" height="500px" seamless></iframe>
