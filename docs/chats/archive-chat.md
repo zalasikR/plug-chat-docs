@@ -11,7 +11,7 @@ title: Arquivar chats
 
 ## Header
 
-#### Toda requisição http precisa passar seu token de autorização no header.
+#### Toda requisição HTTPS precisa passar seu token de autorização no header.
 
 |      Key       |        Value        |
 | :------------: | :-----------------: |
