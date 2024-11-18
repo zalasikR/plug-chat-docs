@@ -21,7 +21,7 @@ title: Enviando texto status
 
 ## Conceituação
 
-Você pode postar textos no seu status e este método é responsavel por isso, lembre-se que os status somem após 24 horas.
+Você pode postar textos no seu status e este método é responsável  por isso, lembre-se que os status somem após 24 horas.
 
 ---
 
@@ -81,11 +81,11 @@ Exemplo
 
 ### 405
 
-Neste caso certifique que esteja enviando o corretamente a especificação do método, ou seja verifique se você enviou o POST ou GET conforme especificado no inicio deste tópico.
+Neste caso ertifique-se que esteja enviando o corretamente a especificação do método, ou seja verifique se você enviou o POST ou GET conforme especificado no inicio deste tópico.
 
 ### 415
 
-Caso você receba um erro 415, certifique de adicionar na headers da requisição o "Content-Type" do objeto que você está enviando, em sua grande maioria "application/json"
+Caso você receba um erro 415, ertifique-se de adicionar na headers da requisição o "Content-Type" do objeto que você está enviando, em sua grande maioria "application/json"
 
 ---
 
