@@ -21,7 +21,7 @@ title: Deletar Chats
 
 ## Conceituação
 
-Este método é reponsavel por deletar seus chats.
+Este método é responsável por deletar seus chats.
 
 ---
 
@@ -67,7 +67,7 @@ Exemplo
 
 ### 405
 
-Neste caso certifique que esteja enviando o corretamente a especificação do método, ou seja verifique se você enviou o POST ou GET conforme especificado no início deste tópico.
+Neste caso certifique-se que esteja enviando o corretamente a especificação do método, ou seja verifique se você enviou o POST ou GET conforme especificado no início deste tópico.
 
 ### 415
 
