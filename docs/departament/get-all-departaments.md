@@ -21,7 +21,7 @@ title: Pegar todos os departamentos
 
 ## Conceituação
 
-Este método é reponsavel por retornar os departamentos cadastrados na sua conta.
+Este método é responsável por retornar os departamentos cadastrados na sua conta.
 
 ---
 
@@ -61,7 +61,7 @@ Exemplo
 
 ### 401
 
-Neste caso certifique que esteja enviando o corretamente o Authorization na headers e se o mesmo é um token válido.
+Neste caso certifique-se que esteja enviando o corretamente o Authorization na headers e se o mesmo é um token válido.
 
 ### 405
 
