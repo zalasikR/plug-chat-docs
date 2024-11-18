@@ -22,7 +22,7 @@ title: Pegar dados dos operadores
 
 ## Conceituação
 
-Este método é reponsável por retornar os dados dos operadores
+Este método é responsável por retornar os dados dos operadores
 
 ---
 
@@ -131,7 +131,7 @@ Exemplo
 
 ### 401
 
-Neste caso certifique que esteja informando o Authorization da headers corretamente e se o token é válido.
+Neste caso certifique-se que esteja informando o Authorization da headers corretamente e se o token é válido.
 
 ### 405
 
