@@ -40,7 +40,7 @@ Sim! Como no Whatsapp Web você vai precisar ler um QRCode para conectar-se ao P
 Existem 2 formas que você pode utilizar para realizar esta leitura. São elas:
 
 - Se conectar através do nosso painel de administrador ou
-- Disponibilizar a experiência dentro da sua própria aplicação através dos métodos descritos nesta sessão.
+- Disponibilizar a experiência dentro da sua própria aplicação através dos métodos descritos nesta seção.
 
 Você pode optar por um dos métodos disponíveis para ler o QRCode do Whatsapp, conforme exemplo abaixo:
 

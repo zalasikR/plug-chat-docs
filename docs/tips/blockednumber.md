@@ -15,9 +15,9 @@ title: Bloqueios e Banimentos
 
 ### Boas práticas !
 
-Criamos este tópico para compartilhar um pouco de tudo que aprendemos sobre boas práticas afim de evitar aborrecimentos com bloqueios e banimentos no Whatsapp.
+Criamos este tópico para compartilhar um pouco de tudo que aprendemos sobre boas práticas a fim de evitar aborrecimentos com bloqueios e banimentos no Whatsapp.
 
-Gostaria de iniciar fazendo a seguinte reflexão com você, é bem provável que você receba diariamente vários SMSs com publicidades de lojas, promoções, operadoras de telefonia e por aí vai. Agora pense, e pelo Whatsapp quantas mensagens deste tipo você recebe? Provavelmente nenhuma ou pouquíssimas não é mesmo? Mesmo assim caso você receba o Whatsapp permite você marcar como spam e até mesmo bloquear o contato.
+Gostaria de iniciar fazendo a seguinte reflexão com você, é bem provável que você receba diariamente vários SMSs com publicidades de lojas, promoções, operadoras de telefonia e por aí vai. Agora pense, e pelo Whatsapp quantas mensagens deste tipo você recebe? Provavelmente nenhuma ou pouquíssimas não é mesmo? Mesmo assim, caso você receba, o WhatsApp permite que você marque como spam e até mesmo bloqueie o contato
 
 # O WHATSAPP NÃO PERMITE SPAM!
 
@@ -31,9 +31,9 @@ Quantidade é algo importante sim, mas não é só sobre a quantidade enviada, o
 
 Sempre em nossas conversas utilizamos o caso de um dos nossos clientes mais antigos, que hoje envia mensagens promocionais pelo Whatsapp para mais de 80 mil pessoas diariamente e nunca teve seu número bloqueado. Quando o procuramos e indagamos sobre como ele conseguia tal façanha, ele gentilmente compartilhou a seguinte técnica:
 
-- Primeiro: Para receber mensagem com promoções o destinatário precisa adicionar o número da empresa nos contatos e enviar uma mensagem dizendo "quero promoções". Esta simples ação diminui significantemente o risco de bloqueios, pois com o seu número na agenda e iniciando a conversa os botões de bloqueio e denúncia de spam não aparecem;
+- Primeiro: Para receber mensagem com promoções o destinatário precisa adicionar o número da empresa nos contatos e enviar uma mensagem dizendo "quero promoções". Esta simples ação diminui significativamente o risco de bloqueios, pois com o seu número na agenda e iniciando a conversa os botões de bloqueio e denúncia de spam não aparecem;
 
-- Segundo: Ele personaliza as mensagens com dados do destinatário, para que todas mensagens não fiquem exatamente iguais;
+- Segundo: Ele personaliza as mensagens com dados do destinatário, para que todas as mensagens não fiquem exatamente iguais;
 
 - Terceiro: sempre dê uma opção para o destinatário deixar de receber as mensagens. Exemplo: "Digite 2 para não receber mais estas mensagens", com isso ele monitora os webhooks para retirar os números que não querem mais receber da lista de envios e
 
@@ -53,4 +53,4 @@ Sempre em nossas conversas utilizamos o caso de um dos nossos clientes mais anti
 
 :::warning Cuidado
 
-Se 3% dos destinatários marcarem sua mensagem como spam seu número será banido!
+Se 3% dos destinatários marcarem sua mensagem como spam, seu número será banido!
