@@ -19,7 +19,7 @@ title: Remover admin do grupo
 
 ## Conceituação
 
-Este método é reponsável por remover um ou mais admistradores de um grupo.
+Este método é responsável por remover um ou mais admistradores de um grupo.
 
 :::caution Atenção
 
@@ -93,7 +93,7 @@ Forma nova -
 
 ### 405
 
-Neste caso certifique que esteja enviando o corretamente a especificação do método, ou seja verifique se você enviou o POST ou GET conforme especificado no início deste tópico.
+Neste caso certifique-se que esteja enviando o corretamente a especificação do método, ou seja verifique se você enviou o POST ou GET conforme especificado no início deste tópico.
 
 ### 415
 
