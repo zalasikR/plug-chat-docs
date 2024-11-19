@@ -21,7 +21,7 @@ title: Arquivar chats
 
 ## Conceituação
 
-Este método é reponsável por arquivar e desarquivar seus chats.
+Este método é responsável por arquivar e desarquivar seus chats.
 
 ---
 
@@ -67,7 +67,7 @@ Exemplo
 
 ### 405
 
-Neste caso certifique que esteja enviando corretamente a especificação do método, ou seja verifique se você enviou o POST ou GET conforme especificado no início deste tópico.
+Neste caso certifique-se que esteja enviando corretamente a especificação do método, ou seja verifique se você enviou o POST ou GET conforme especificado no início deste tópico.
 
 ### 415
 

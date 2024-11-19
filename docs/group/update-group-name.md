@@ -21,7 +21,7 @@ title: Atualizar nome do grupo
 
 ## Conceituação
 
-Este método é reponsável por alterar o nome de um grupo já existente.
+Este método é responsável por alterar o nome de um grupo já existente.
 
 :::caution Atenção
 
@@ -93,7 +93,7 @@ Forma nova -
 
 ### 405
 
-Neste caso certifique que esteja enviando o corretamente a especificação do método, ou seja verifique se você enviou o POST ou GET conforme especificado no início deste tópico.
+Neste caso certifique-se que esteja enviando o corretamente a especificação do método, ou seja verifique se você enviou o POST ou GET conforme especificado no início deste tópico.
 
 ### 415
 

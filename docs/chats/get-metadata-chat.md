@@ -21,7 +21,7 @@ title: Pegar metadata do Chat
 
 ## Conceituação
 
-Este método é reponsável por retornar as informações do metadata de um chat.
+Este método é responsável por retornar as informações do metadata de um chat.
 
 ---
 

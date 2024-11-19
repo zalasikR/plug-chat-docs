@@ -22,7 +22,7 @@ title: Pegar atendimento pela task
 
 ## Conceituação
 
-Este método é reponsavel por retornar o atendimento pelo número da task
+Este método é responsável por retornar o atendimento pelo número da task
 
 ---
 

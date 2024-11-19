@@ -20,11 +20,11 @@ title: Metadata do Grupo por Convite
 
 ## Conceituação
 
-Este método retorna o metadata do grupo com todas informações do grupo e de seus partipantes.
+Este método retorna o metadata do grupo com todas as informações do grupo e de seus participantes.
 
 :::caution Atenção
 
-No dia 4 de novembro de 2021 o whatsapp alterou a formato da criação de novos grupos, antes: "phone": "5511999999999-1623281429" agora: "phone": "120363019502650977-group"
+No dia 4 de novembro de 2021 o whatsapp alterou o formato da criação de novos grupos, antes: "phone": "5511999999999-1623281429" agora: "phone": "120363019502650977-group"
 
 :::
 
@@ -37,10 +37,10 @@ No dia 4 de novembro de 2021 o whatsapp alterou a formato da criação de novos 
 | Atributos    | Tipo         | Descrição                             |
 | :----------- | :----------- | :------------------------------------ |
 | phone        | string       | ID/Fone do Grupo                      |
-| owner        | string       | Numero do criador do grupo            |
+| owner        | string       | Número do criador do grupo            |
 | subject      | string       | Nome do grupo                         |
 | creation     | timestamp    | Timestamp da data de criação do grupo |
-| participants | array string | com dados dos participantes           |
+| participants | array de string | com dados dos participantes        |
 
 Array String (participants)
 
@@ -110,11 +110,11 @@ Forma antiga -
 
 ### 405
 
-Neste caso certifique que esteja enviando o corretamente a especificação do método, ou seja verifique se você enviou o POST ou GET conforme especificado no inicio deste tópico.
+Neste caso certifique-se de que está enviando corretamente a especificação do método, ou seja, verifique se você enviou o POST ou GET conforme especificado no início deste tópico.
 
 ### 415
 
-Caso você receba um erro 415, certifique de adicionar na headers da requisição o "Content-Type" do objeto que você está enviando, em sua grande maioria "application/json"
+Caso você receba um erro 415, certifique-se de adicionar nos headers da requisição o "Content-Type" do objeto que você está enviando, em sua grande maioria "application/json"
 
 ---
 
