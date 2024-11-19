@@ -19,7 +19,7 @@ title: Fila
 
 ## Conceituação
 
-Este método é reponsavel por retornar todas mensagens que estão em sua fila aguardando para ser processada.
+Este método é responsável por retornar todas mensagens que estão em sua fila aguardando para ser processada.
 
 ---
 
@@ -95,7 +95,7 @@ Exemplo
 
 ### 405
 
-Neste caso certifique que esteja enviando o corretamente a especificação do método, ou seja verifique se você enviou o POST ou GET conforme especificado no inicio deste tópico.
+Neste caso certifique-se que esteja enviando o corretamente a especificação do método, ou seja verifique se você enviou o POST ou GET conforme especificado no inicio deste tópico.
 
 ### 415
 
