@@ -85,7 +85,7 @@ Neste caso certifique-se que esteja enviando o corretamente a especificação do
 
 ### 415
 
-Caso você receba um erro 415, ertifique-se de adicionar na headers da requisição o "Content-Type" do objeto que você está enviando, em sua grande maioria "application/json"
+Caso você receba um erro 415, certifique-se de adicionar na headers da requisição o "Content-Type" do objeto que você está enviando, em sua grande maioria "application/json"
 
 ---
 
