@@ -30,7 +30,7 @@ Então se você está se integrando com o Plug e precisa receber informações p
 
 - Não deixe de ler nossa sessão dicas, lá você vai encontrar alguns tópicos de como melhorar sua conexão com Plug e ter mais qualidade no serviço.
 
-- Você não precisa configurar todos webhookds, mas quanto mais controle você possuir sobre sua instância mais vai conseguir extrair recursos e desenvolver negócios com Plug
+- Você não precisa configurar todos webhooks, mas quanto mais controle você possuir sobre sua instância mais vai conseguir extrair recursos e desenvolver negócios com Plug
 
 :::
 
