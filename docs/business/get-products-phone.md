@@ -13,7 +13,7 @@ title: Pegar Produtos (Telefone)
 
 ## Condeituação
 
-Nesse método você será capaz de pegar os produtos de um catálogo do whatsapp Business de qualquer número, sendo o seu catáçogo ou de outra pessoa
+Nesse método você será capaz de pegar os produtos de um catálogo do whatsapp Business de qualquer número, sendo o seu catálogo ou de outra pessoa
 
 ## Response
 
