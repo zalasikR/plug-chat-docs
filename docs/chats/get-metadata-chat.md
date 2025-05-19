@@ -7,7 +7,7 @@ title: Pegar metadata do Chat
 
 #### /chat/{phone}
 
-`GET` https://www.plugchat.com.br/api/whatsapp/chats/{phone}
+`GET` https://app.plugchat.com.br/api/whatsapp/chats/{phone}
 
 ## Header
 

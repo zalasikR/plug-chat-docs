@@ -7,7 +7,7 @@ title: Enviar sticker
 
 #### /send-sticker
 
-`POST` https://www.plugchat.com.br/api/whatsapp/send-text/send-sticker
+`POST` https://app.plugchat.com.br/api/whatsapp/send-text/send-sticker
 
 ## Header
 

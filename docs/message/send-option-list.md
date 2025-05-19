@@ -7,7 +7,7 @@ title: Enviar lista de opções
 
 #### /send-option-list
 
-`POST` https://www.plugchat.com.br/api/whatsapp/send-text/send-option-list
+`POST` https://app.plugchat.com.br/api/whatsapp/send-text/send-option-list
 
 ## Header
 

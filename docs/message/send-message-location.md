@@ -7,7 +7,7 @@ title: Enviar localização
 
 #### /send-location
 
-`POST` https://www.plugchat.com.br/api/whatsapp/send-location
+`POST` https://app.plugchat.com.br/api/whatsapp/send-location
 
 ## Header
 

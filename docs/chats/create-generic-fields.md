@@ -7,7 +7,7 @@ title: Criar campo genérico
 
 #### /create-generic-field
 
-`POST` https://www.plugchat.com.br/api/integrations/create-generic-field
+`POST` https://app.plugchat.com.br/api/integrations/create-generic-field
 
 ---
 

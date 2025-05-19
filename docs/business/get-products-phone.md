@@ -7,7 +7,7 @@ title: Pegar Produtos (Telefone)
 
 #### /catalogs/Numero-de-telefone
 
-`GET` https://www.plugchat.com.br/api/whatsapp/catalogs/{{Numero-de-telefone}}
+`GET` https://app.plugchat.com.br/api/whatsapp/catalogs/{{Numero-de-telefone}}
 
 ---
 

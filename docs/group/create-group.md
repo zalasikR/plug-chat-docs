@@ -7,7 +7,7 @@ title: Criando grupos
 
 #### /create-group
 
-`POST` https://www.plugchat.com.br/api/whatsapp/create-group
+`POST` https://app.plugchat.com.br/api/whatsapp/create-group
 
 ## Header
 

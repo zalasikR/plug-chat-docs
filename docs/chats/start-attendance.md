@@ -7,7 +7,7 @@ title: Iniciar Atendimento
 
 #### /start-attendance
 
-`POST` https://www.plugchat.com.br/api/integrations/start-attendance
+`POST` https://app.plugchat.com.br/api/integrations/start-attendance
 
 ---
 

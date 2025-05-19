@@ -8,7 +8,7 @@ title: Metadata do Grupo
 
 #### /group-metadata
 
-`GET` https://www.plugchat.com.br/api/whatsapp/group-metadata
+`GET` https://app.plugchat.com.br/api/whatsapp/group-metadata
 
 ## Header
 #### Toda requisição http feita precisa passar sua header de autorização.

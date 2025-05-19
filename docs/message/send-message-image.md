@@ -7,7 +7,7 @@ title: Enviar imagem
 
 #### /send-image
 
-`POST` https://www.plugchat.com.br/api/whatsapp/send-image
+`POST` https://app.plugchat.com.br/api/whatsapp/send-image
 
 ## Header
 

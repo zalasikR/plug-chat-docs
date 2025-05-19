@@ -7,11 +7,11 @@ title: Pegar Produtos
 
 #### /catalogs
 
-`GET` https://www.plugchat.com.br/api/whatsapp/catalogs
+`GET` https://app.plugchat.com.br/api/whatsapp/catalogs
 
 ---
 
-## Condeituação
+## Conceituação
 
 Nesse método você será capaz de pegar os produtos de um catálogo do whatsapp Business
 

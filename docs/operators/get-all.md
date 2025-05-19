@@ -7,7 +7,7 @@ title: Pegar dados dos operadores
 
 #### /get-all
 
-`GET` https://www.plugchat.com.br/api/operator/get-all
+`GET` https://app.plugchat.com.br/api/operator/get-all
 
 ## Header
 

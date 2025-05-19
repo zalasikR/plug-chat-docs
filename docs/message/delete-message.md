@@ -7,7 +7,7 @@ title: Deletar mensagens
 
 #### /messages
 
-`DELETE` https://www.plugchat.com.br/api/whatsapp/messages
+`DELETE` https://app.plugchat.com.br/api/whatsapp/messages
 
 ## Header
 

@@ -7,7 +7,7 @@ title: Desconectar
 
 #### /disconnect
 
-`GET` https://www.plugchat.com.br/api/whatsapp/disconnect
+`GET` https://app.plugchat.com.br/api/whatsapp/disconnect
 
 ## Header
 #### Toda requisição http feita precisa passar sua header de autorização.

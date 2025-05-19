@@ -7,7 +7,7 @@ title: Enviar produto
 
 #### /
 
-`GET` https://www.plugchat.com.br/api/whatsapp/send-text
+`GET` https://app.plugchat.com.br/api/whatsapp/send-text
 
 ## Header
 #### Toda requisição http feita precisa passar sua header de autorização.

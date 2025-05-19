@@ -7,7 +7,7 @@ title: Enviar catálogo
 
 #### /
 
-`POST` https://www.plugchat.com.br/api/whatsapp/send-text
+`POST` https://app.plugchat.com.br/api/whatsapp/send-text
 
 ## Header
 #### Toda requisição http feita precisa passar sua header de autorização.

@@ -7,7 +7,7 @@ title: Alterar descrição
 
 #### /update-group-description
 
-`POST` https://www.plugchat.com.br/api/whatsapp/update-group-description
+`POST` https://app.plugchat.com.br/api/whatsapp/update-group-description
 
 ## Header
 

@@ -7,7 +7,7 @@ title: Pegar mensagens do chat
 
 #### /chat-messages/{phone}
 
-`GET` https://www.plugchat.com.br/api/whatsapp/chat-messages/{phone}
+`GET` https://app.plugchat.com.br/api/whatsapp/chat-messages/{phone}
 
 ## Header
 

@@ -7,7 +7,7 @@ title: Atualizar nome do grupo
 
 #### /update-group-name
 
-`POST` https://www.plugchat.com.br/api/whatsapp/update-group-name
+`POST` https://app.plugchat.com.br/api/whatsapp/update-group-name
 
 ## Header
 

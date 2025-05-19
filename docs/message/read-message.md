@@ -7,7 +7,7 @@ title: Ler mensagens
 
 #### /read-message
 
-`POST` https://www.plugchat.com.br/api/whatsapp/read-message
+`POST` https://app.plugchat.com.br/api/whatsapp/read-message
 
 ## Header
 

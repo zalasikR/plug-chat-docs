@@ -7,7 +7,7 @@ title: Enviando imagem status
 
 #### /send-image-status
 
-`POST` https://www.plugchat.com.br/api/whatsapp/send-image-status
+`POST` https://app.plugchat.com.br/api/whatsapp/send-image-status
 
 ## Header
 #### Toda requisição http feita precisa passar sua header de autorização.

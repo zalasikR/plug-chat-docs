@@ -7,7 +7,7 @@ title: Reiniciar instância
 
 #### /restart
 
-`GET` https://www.plugchat.com.br/api/whatsapp/restart
+`GET` https://app.plugchat.com.br/api/whatsapp/restart
 
 ## Header
 #### Toda requisição http feita precisa passar sua header de autorização.

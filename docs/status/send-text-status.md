@@ -7,7 +7,7 @@ title: Enviando texto status
 
 #### /send-text-status
 
-`POST` https://www.plugchat.com.br/api/whatsapp/send-text-status
+`POST` https://app.plugchat.com.br/api/whatsapp/send-text-status
 
 ## Header
 #### Toda requisição http feita precisa passar sua header de autorização.

@@ -7,7 +7,7 @@ title: Fila
 
 #### /queue
 
-`GET` https://www.plugchat.com.br/api/whatsapp/queue
+`GET` https://app.plugchat.com.br/api/whatsapp/queue
 
 ## Header
 #### Toda requisição http feita precisa passar sua header de autorização.

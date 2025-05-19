@@ -7,7 +7,7 @@ title: Restaurar sessão
 
 #### /restore-session
 
-`GET` https://www.plugchat.com.br/api/whatsapp/restore-session
+`GET` https://app.plugchat.com.br/api/whatsapp/restore-session
 
 ## Header
 #### Toda requisição http feita precisa passar sua header de autorização.

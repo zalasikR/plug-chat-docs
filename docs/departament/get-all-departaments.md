@@ -7,7 +7,7 @@ title: Pegar todos os departamentos
 
 #### /departaments
 
-`GET` https://www.plugchat.com.br/api/integrations/departments
+`GET` https://app.plugchat.com.br/api/integrations/departments
 
 ## Header
 

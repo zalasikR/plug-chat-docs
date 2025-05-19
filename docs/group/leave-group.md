@@ -8,7 +8,7 @@ title: Sair do grupo
 
 #### /leave-group
 
-`POST` https://www.plugchat.com.br/api/whatsapp/leave-group
+`POST` https://app.plugchat.com.br/api/whatsapp/leave-group
 
 ## Header
 

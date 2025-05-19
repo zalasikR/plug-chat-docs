@@ -7,7 +7,7 @@ title: Enviar contato
 
 #### /send-contact
 
-`POST` https://www.plugchat.com.br/api/whatsapp/send-contact
+`POST` https://app.plugchat.com.br/api/whatsapp/send-contact
 
 ## Header
 

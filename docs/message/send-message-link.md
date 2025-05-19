@@ -7,7 +7,7 @@ title: Enviar link
 
 #### /send-link
 
-`POST` https://www.plugchat.com.br/api/whatsapp/send-link
+`POST` https://app.plugchat.com.br/api/whatsapp/send-link
 
 ## Header
 

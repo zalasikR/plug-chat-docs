@@ -7,7 +7,7 @@ title: Pegar contatos
 
 #### /contacts
 
-`GET` https://www.plugchat.com.br/api/whatsapp/contacts
+`GET` https://app.plugchat.com.br/api/whatsapp/contacts
 
 ## Header
 

@@ -7,7 +7,7 @@ title: Apagando msg fila
 
 #### /queue/{zaapid}
 
-`DELETE` https://www.plugchat.com.br/api/whatsapp/queue/{zaapid}
+`DELETE` https://app.plugchat.com.br/api/whatsapp/queue/{zaapid}
 
 ## Header
 

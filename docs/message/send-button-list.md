@@ -7,7 +7,7 @@ title: Enviar texto com botões
 
 #### /send-button-list
 
-`POST` https://www.plugchat.com.br/api/whatsapp/send-button-list
+`POST` https://app.plugchat.com.br/api/whatsapp/send-button-list
 
 ## Header
 

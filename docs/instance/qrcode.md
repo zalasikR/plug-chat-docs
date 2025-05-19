@@ -7,7 +7,7 @@ title: Pegar QRCode
 
 #### /qr-code
 
-`GET` https://www.plugchat.com.br/api/whatsapp/qr-code
+`GET` https://app.plugchat.com.br/api/whatsapp/qr-code
 
 
 ## Header

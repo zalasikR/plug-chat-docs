@@ -7,7 +7,7 @@ title: Adicionar Participantes
 
 #### /add-participant
 
-`POST` https://www.plugchat.com.br/api/whatsapp/add-participant
+`POST` https://app.plugchat.com.br/api/whatsapp/add-participant
 
 ## Header
 

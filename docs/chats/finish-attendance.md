@@ -7,7 +7,7 @@ title: Finalizar Atendimento
 
 #### /finish-attendance
 
-`POST` https://www.plugchat.com.br/api/integrations/finish-attendance
+`POST` https://app.plugchat.com.br/api/integrations/finish-attendance
 
 ---
 

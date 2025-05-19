@@ -7,7 +7,7 @@ title: Número com Whatsapp ?
 
 #### /phone-exists
 
-`GET` https://www.plugchat.com.br/api/whatsapp/phone-exists
+`GET` https://app.plugchat.com.br/api/whatsapp/phone-exists
 
 ## Header
 

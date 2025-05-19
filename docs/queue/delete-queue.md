@@ -7,7 +7,7 @@ title: Apagando uma Fila
 
 #### /queue
 
-`DELETE` https://www.plugchat.com.br/api/whatsapp/queue
+`DELETE` https://app.plugchat.com.br/api/whatsapp/queue
 
 ## Header
 

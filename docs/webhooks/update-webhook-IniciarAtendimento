@@ -1,0 +1,100 @@
+---
+
+id:id webhook-start-attendance
+
+title: Webhook - StartAttendance (Início de Atendimento)
+---
+
+## Método
+
+#### Endpoint
+
+`PUT` <https://app.plugchat.com.br/api/integrations/update-webhooks>
+
+---
+
+## Header
+
+```http
+Authorization: Bearer SEU_TOKEN_AQUI
+Content-Type: application/json
+```
+
+\:::caution Atenção
+O Plugchat não aceita webhooks que não sejam HTTPS.
+\:::
+
+---
+
+## Conceituação
+
+Esse webhook é acionado **quando um atendimento é iniciado** na plataforma Plugchat. Use esse webhook para registrar eventos de início de conversa ou integrar com outros sistemas que precisam dessa informação.
+
+---
+
+## Atributos
+
+### Obrigatórios
+
+| Atributo        | Tipo   | Descrição                         |
+| --------------- | ------ | --------------------------------- |
+| startAttendance | string | Webhook/EndPoint da sua aplicação |
+
+### Opcionais
+
+```json
+{
+  "finishAttendance": "https://seuwebhook.com.br",
+  "startAttendance": "https://seuwebhook.com.br",
+  "receiveMessage": "https://seuwebhook.com.br",
+  "sendingMessage": "https://seuwebhook.com.br",
+  "messageDeliveryError": "https://seuwebhook.com.br",
+  "messageStatus": "https://seuwebhook.com.br",
+  "whenDisconnecting": "https://seuwebhook.com.br"
+}
+
+---
+
+## Request Body
+
+```json
+{
+  "value": {
+    "startAttendance": "https://seuwebhook.com.br"
+  }
+}
+```
+
+---
+
+## Response
+
+### 200 - Sucesso
+
+```json
+{
+  "phone": "554499999999",
+  "zaapId": "A20DA9C0183A2D35A260F53F5D2B9244",
+  "messageId": "A20DA9C0183A2D35A260F53F5D2B9244",
+}
+---
+### 405 - Método não permitido
+
+Verifique se o método da requisição é `PUT`, conforme especificado.
+
+### 415 - Tipo de conteúdo inválido
+
+Adicione no header da requisição o `Content-Type: application/json`.
+
+---
+
+## Observações
+
+* Certifique-se de utilizar URLs seguras com HTTPS.
+* O token de autenticação utilizado deve ser o **Authorization Token** fornecido pela equipe do Plugchat.
+
+---
+
+## Próximo webhook
+
+[Webhook - Receber mensagem](./webhook-receive-message.md)

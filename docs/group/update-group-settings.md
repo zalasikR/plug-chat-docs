@@ -7,7 +7,7 @@ title: Configurações do grupo
 
 #### /update-group-settings
 
-`POST` https://www.plugchat.com.br/api/whatsapp/update-group-settings
+`POST` https://app.plugchat.com.br/api/whatsapp/update-group-settings
 
 ## Header
 

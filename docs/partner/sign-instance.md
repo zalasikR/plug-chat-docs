@@ -7,7 +7,7 @@ title: Assinando uma instância
 
 #### /subscription
 
-`POST` https://www.plugchat.com.br/api/whatsapp/integrator/on-demand/subscription
+`POST` https://app.plugchat.com.br/api/whatsapp/integrator/on-demand/subscription
 
 ---
 

@@ -7,7 +7,7 @@ title: Enviar video
 
 #### /send-video
 
-`POST` https://www.plugchat.com.br/api/whatsapp/send-video
+`POST` https://app.plugchat.com.br/api/whatsapp/send-video
 
 ## Header
 

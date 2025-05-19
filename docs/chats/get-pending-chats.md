@@ -7,7 +7,7 @@ title: Pegar chats pendentes
 
 #### /get-pending-chats
 
-`GET` https://www.plugchat.com.br/api/chat/get-pending-chats
+`GET` https://app.plugchat.com.br/api/chat/get-pending-chats
 
 ## Header
 

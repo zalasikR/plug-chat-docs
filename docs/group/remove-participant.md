@@ -8,7 +8,7 @@ title: Remove Participantes
 
 #### /add-participant
 
-`POST` https://www.plugchat.com.br/api/whatsapp/remove-participant
+`POST` https://app.plugchat.com.br/api/whatsapp/remove-participant
 
 ## Header
 

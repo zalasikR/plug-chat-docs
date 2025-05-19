@@ -7,11 +7,11 @@ title: Criar/editar Produto
 
 #### /products
 
-`POST` https://www.plugchat.com.br/api/whatsapp/products
+`POST` https://app.plugchat.com.br/api/whatsapp/products
 
 ---
 
-## Condeituação
+## Conceituação
 
 Nesse método você será capaz de cadastrar e atualizar um produto no seu catálogo
 

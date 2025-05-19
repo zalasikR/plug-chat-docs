@@ -7,7 +7,7 @@ title: Remover admin do grupo
 
 #### /remove-admin
 
-`POST` https://www.plugchat.com.br/api/whatsapp/remove-admin
+`POST` https://app.plugchat.com.br/api/whatsapp/remove-admin
 
 ## Header
 

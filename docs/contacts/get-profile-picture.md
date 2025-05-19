@@ -21,7 +21,7 @@ title: Pegar imagem do contato
 
 ## Conceituação
 
-Este método é reponsavel por retornar a url com a imagem do contato atualizada.
+Este método é responsável por retornar a url com a imagem do contato atualizada.
 
 Como já dito no tópico anterior **Lembre-se**
 

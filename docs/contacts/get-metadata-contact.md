@@ -7,7 +7,7 @@ title: Pegar metadata do contato
 
 #### /contacts/{phone}
 
-`GET` https://www.plugchat.com.br/api/whatsapp/contacts/{phone}
+`GET` https://app.plugchat.com.br/api/whatsapp/contacts/{phone}
 
 ## Header
 
@@ -21,7 +21,7 @@ title: Pegar metadata do contato
 
 ## Conceituação
 
-Este método é reponsavel por retornar as informações do metadata do contato.
+Este método é responsável por retornar as informações do metadata do contato.
 
 :::tip Dica sobre imagem do contato
 

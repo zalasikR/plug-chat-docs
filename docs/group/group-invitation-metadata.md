@@ -8,7 +8,7 @@ title: Metadata do Grupo por Convite
 
 #### /group-invitation-metadata
 
-`GET` https://www.plugchat.com.br/api/whatsapp/group-invitation-metadata?url={ **URL** **DO** **CONVITE**}
+`GET` https://app.plugchat.com.br/api/whatsapp/group-invitation-metadata?url={ **URL** **DO** **CONVITE**}
 
 ## Header
 #### Toda requisição http feita precisa passar sua header de autorização.

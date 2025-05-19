@@ -7,7 +7,7 @@ title: Enviar texto simples
 
 #### /send-text
 
-`POST` https://www.plugchat.com.br/api/whatsapp/send-text
+`POST` https://app.plugchat.com.br/api/whatsapp/send-text
 
 ## Header
 

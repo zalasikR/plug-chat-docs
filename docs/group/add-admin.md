@@ -8,7 +8,7 @@ title: Promover admin do grupo
 
 #### /add-admin
 
-`POST` https://www.plugchat.com.br/api/whatsapp/add-admin
+`POST` https://app.plugchat.com.br/api/whatsapp/add-admin
 
 ## Header
 

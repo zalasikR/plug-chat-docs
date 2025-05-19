@@ -7,7 +7,7 @@ title: Pegar atendimento pela task
 
 #### /get-attendance-by-task
 
-`GET` https://www.plugchat.com.br/api/integrations/get-attendence-by-task
+`GET` https://app.plugchat.com.br/api/integrations/get-attendence-by-task
 
 ## Header
 

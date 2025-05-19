@@ -7,11 +7,11 @@ title: Deletar Produto
 
 #### /products/id-do-produto
 
-`DELETE` https://www.plugchat.com.br/api/whatsapp/products/{{id-do-produto}}
+`DELETE` https://app.plugchat.com.br/api/whatsapp/products/{{id-do-produto}}
 
 ---
 
-## Condeituação
+## Conceituação
 
 Nesse método você será capaz de deletar um produto pelo seu id
 

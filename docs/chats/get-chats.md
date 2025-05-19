@@ -7,7 +7,7 @@ title: Pegar chats
 
 #### /chats
 
-`GET` https://www.plugchat.com.br/api/whatsapp/chats
+`GET` https://app.plugchat.com.br/api/whatsapp/chats
 
 ## Header
 

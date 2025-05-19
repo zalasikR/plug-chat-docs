@@ -7,7 +7,7 @@ title: Atualizar imagem do grupo
 
 #### /update-group-photo
 
-`POST` https://www.plugchat.com.br/api/whatsapp/update-group-photo
+`POST` https://app.plugchat.com.br/api/whatsapp/update-group-photo
 
 ## Header
 

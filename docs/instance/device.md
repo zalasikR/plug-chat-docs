@@ -7,7 +7,7 @@ title: Dados do celular
 
 #### /Status
 
-`GET` https://www.plugchat.com.br/api/whatsapp/device
+`GET` https://app.plugchat.com.br/api/whatsapp/device
 
 ## Header
 #### Toda requisição http feita precisa passar sua header de autorização.
