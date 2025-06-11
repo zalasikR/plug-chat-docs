@@ -7,7 +7,7 @@ title: Enviar áudio
 
 #### /send-audio
 
-`POST` https://www.plugchat.com.br/api/whatsapp/send-text/send-audio
+`POST` https://www.plugchat.com.br/api/whatsapp/send-audio
 
 ## Header
 
